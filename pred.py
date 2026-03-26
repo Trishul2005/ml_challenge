@@ -262,10 +262,28 @@ def extract(filename):
             labels.append(label)
 
 def split_data(features, labels, frac_train, frac_valid, frac_test):
-    assert np.equal(frac_train + frac_valid + frac_test, 1)
+    assert np.isclose(frac_train + frac_valid + frac_test, 1)
 
-    paired = zip(features, labels)
+    paired = list(zip(features, labels))
     random.shuffle(paired)
+
+    N = len(paired)
+
+    n_train = int(frac_train * N)
+    n_valid = int(frac_valid * N)
+
+    train = paired[:n_train]
+    valid = paired[n_train:n_train + n_valid]
+    test  = paired[n_train + n_valid:]
+
+    # unzip back into features / labels
+    X_train, y_train = zip(*train) if train else ([], [])
+    X_valid, y_valid = zip(*valid) if valid else ([], [])
+    X_test,  y_test  = zip(*test)  if test  else ([], [])
+
+    return (list(X_train), list(y_train),
+            list(X_valid), list(y_valid),
+            list(X_test),  list(y_test))
 
 
 if __name__ == "__main__":
@@ -278,7 +296,11 @@ if __name__ == "__main__":
     extract('ml_challenge_dataset.csv')
     print(features)
 
-    split_data(features, labels, 0.7, 0.15, 0.15)
+    X_train, t_train, X_valid, t_valid, X_test, t_test = split_data(features, labels, 0.7, 0.15, 0.15)
+    print(len(features))
+    print(len(X_train))
+    print(len(X_valid))
+    print(len(X_test))
 
     # print("\nSample Predictions:")
     # print(predictions_df.head().to_string())
