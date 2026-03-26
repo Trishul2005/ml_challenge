@@ -210,49 +210,84 @@ def sanitize(row):
     # return np.ma.masked_array(row, mask=input_mask).compressed()
     # return np.array(row)
     
-def to_bow(s):
-    return [s]
+# Manual Bag of Words using only numpy and pandas
+vocabulary = []
 
-def to_feature(row):
-    res = []
-    if row[0] == 'The Water Lily Pond':
-        res.append(0)
-    elif row[0] == 'The Starry Night':
-        res.append(1)
-    else:
-        res.append(2)
+def fit_bow(filename):
+    """Extracts all unique words from text columns to build a vocabulary."""
+    global vocabulary
+    df = pd.read_csv(filename)
+    # Target text columns: 3 (feel), 14 (food), 15 (soundtrack)
+    text_cols = [3, 14, 15]
+    all_text = df.iloc[:, text_cols].fillna('').astype(str).agg(' '.join, axis=1)
     
-    res.extend(to_bow(row[1]))
+    # Extract all unique tokens
+    tokens = all_text.str.lower().str.findall(r'\b\w+\b').explode()
+    vocabulary = sorted(tokens.dropna().unique().tolist())
+    print(f"Manual Vocabulary fitted with {len(vocabulary)} unique words.")
 
-    season = row[2].split(',')
-    if 'Winter' in season:
-        res.append(1)
-    else:
-        res.append(0)
-    if 'Spring' in season:
-        res.append(1)
-    else:
-        res.append(0)
-    if 'Summer' in season:
-        res.append(1)
-    else:
-        res.append(0)
-    if 'Fall' in season:
-        res.append(1)
-    else:
-        res.append(0)
+def to_bow(s):
+    """Returns a list of word counts based on the complete vocabulary."""
+    if not vocabulary:
+        return []
+    if not s:
+        return [0] * len(vocabulary)
+    
+    s_lower = str(s).lower()
+    import re
+    from collections import Counter
+    tokens = re.findall(r'\b\w+\b', s_lower)
+    counts = Counter(tokens)
+    return [counts[word] for word in vocabulary]
 
-    res.extend(to_bow(row[3]))
-    res.extend(to_bow(row[4]))
-
+def to_feature(full_row):
+    """Processes a full 16-column row into features, placing BoW at indices 3, 14, 15."""
+    if not full_row or len(full_row) < 16:
+        return None
+        
+    res = [None] * 16
+    
+    # 0. unique_id (keep as is)
+    res[0] = full_row[0]
+    
+    # 1. Painting (Target encoding)
+    if full_row[1] == 'The Water Lily Pond':
+        res[1] = 0
+    elif full_row[1] == 'The Starry Night':
+        res[1] = 1
+    else:
+        res[1] = 2
+    
+    # 2. Scale (keep as is)
+    res[2] = full_row[2]
+    
+    # 3. Describe how this painting makes you feel (BoW)
+    res[3] = to_bow(full_row[3])
+    
+    # 4-12. Various categorical/numerical fields (keep original raw data for now)
+    for i in range(4, 13):
+        res[i] = full_row[i]
+        
+    # 13. Season (One-hot encoding list)
+    season_text = full_row[13]
+    season_labels = ['Winter', 'Spring', 'Summer', 'Fall']
+    res[13] = [1 if s in season_text else 0 for s in season_labels]
+    
+    # 14. If this painting was a food, what would be? (BoW)
+    res[14] = to_bow(full_row[14])
+    
+    # 15. Imagine a soundtrack... (BoW)
+    res[15] = to_bow(full_row[15])
+    
     return res
 
 def extract(filename):
+    """Reads the CSV and extracts a feature vector for each row."""
     data = csv.DictReader(open(filename, encoding='utf-8'))
     for i, r in enumerate(data):
-        if i == 0: continue
-        a = to_feature(sanitize(list(r.values())))
-        print(a)
+        # r.values() gives us all 16 columns in order
+        row_values = list(r.values())
+        a = to_feature(row_values)
         if a is not None:
             file.append(a)
 
@@ -262,12 +297,19 @@ def extract(filename):
 if __name__ == "__main__":
     test_file = sys.argv[1] if len(sys.argv) == 2 else 'ml_challenge_dataset.csv'
 
-    # predictions_df = predict_all(test_file)
+    # 1. Fit BoW vocabulary from the dataset
+    fit_bow('ml_challenge_dataset.csv')
 
+    # 2. Extract features
     extract('ml_challenge_dataset.csv')
-    print(file)
+    
+    print(f"\nExtracted {len(file)} rows.")
+    if file:
+        print("Sample feature vector (first row):")
+        print(file[4])
 
     # print("\nSample Predictions:")
     # print(predictions_df.head().to_string())
 
     # predictions_df.to_csv("predictions.csv", index=False)
+    
