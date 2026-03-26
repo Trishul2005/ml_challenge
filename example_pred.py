@@ -21,6 +21,14 @@ import random
 import numpy
 import pandas
 
+bag = []
+
+def sanitize(row):
+    pass
+
+def to_BoW(row):
+    pass
+
 def predict(x):
     """
     Helper function to make prediction for a given input x.
