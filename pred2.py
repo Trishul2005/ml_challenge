@@ -395,6 +395,18 @@ def fit_model():
     }
 
 
+def fit_model_from_rows(train_rows, labels):
+    y = numpy.array(labels, dtype=int)
+    vocab, vocab_index = build_vocab(train_rows)
+    X = rows_to_matrix(train_rows, vocab_index)
+    model = train_naive_bayes(X, y)
+    return {
+        "vocab": vocab,
+        "vocab_index": vocab_index,
+        "model": model,
+    }
+
+
 def ensure_model():
     global MODEL
     if MODEL is None:
@@ -408,6 +420,60 @@ def predict(x):
     X[0] = to_BoW(x, state["vocab_index"])
     pred = predict_matrix(state["model"], X)[0]
     return PAINTINGS[int(pred)]
+
+
+def accuracy_for_rows(state, rows, labels):
+    X = rows_to_matrix(rows, state["vocab_index"])
+    preds = predict_matrix(state["model"], X)
+    labels = numpy.array(labels, dtype=int)
+    return float(numpy.mean(preds == labels))
+
+
+def evaluate_model():
+    rows = load_rows(training_filename())
+    grouped = {}
+    for painting in PAINTINGS:
+        grouped[painting] = []
+
+    for row in rows:
+        painting = row.get(LABEL_COL, "")
+        if painting in PAINTING_TO_LABEL:
+            grouped[painting].append((row, PAINTING_TO_LABEL[painting]))
+
+    train_pairs = []
+    val_pairs = []
+    test_pairs = []
+
+    for painting in PAINTINGS:
+        paired = grouped[painting]
+        random.shuffle(paired)
+
+        n = len(paired)
+        n_train = int(0.70 * n)
+        n_val = int(0.15 * n)
+
+        train_pairs.extend(paired[:n_train])
+        val_pairs.extend(paired[n_train:n_train + n_val])
+        test_pairs.extend(paired[n_train + n_val:])
+
+    random.shuffle(train_pairs)
+    random.shuffle(val_pairs)
+    random.shuffle(test_pairs)
+
+    train_rows = [row for row, _ in train_pairs]
+    train_labels = [label for _, label in train_pairs]
+    val_rows = [row for row, _ in val_pairs]
+    val_labels = [label for _, label in val_pairs]
+    test_rows = [row for row, _ in test_pairs]
+    test_labels = [label for _, label in test_pairs]
+
+    state = fit_model_from_rows(train_rows, train_labels)
+
+    train_acc = accuracy_for_rows(state, train_rows, train_labels)
+    val_acc = accuracy_for_rows(state, val_rows, val_labels)
+    test_acc = accuracy_for_rows(state, test_rows, test_labels)
+
+    return len(state["vocab"]), train_acc, val_acc, test_acc
 
 
 def predict_all(filename):
@@ -426,6 +492,14 @@ def predict_all(filename):
 
 
 if __name__ == "__main__":
+    vocab_size, train_acc, val_acc, test_acc = evaluate_model()
+    print("Vocabulary size:", vocab_size)
+    print(
+        "Naive Bayes accuracy:",
+        "train={:.4f},".format(train_acc),
+        "val={:.4f},".format(val_acc),
+        "test={:.4f}".format(test_acc),
+    )
     test_file = sys.argv[1] if len(sys.argv) == 2 else training_filename()
     preds = predict_all(test_file)
     print("Generated", len(preds), "predictions.")
