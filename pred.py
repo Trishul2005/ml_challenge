@@ -202,19 +202,56 @@ file = []
 
 # FALSE IS INCLUDED TRUE IS EXCLUDED
 input_mask = [False, True, False, True, False, False, False, False, False, False, False, False, False, True, True, True]
-input_mask = [not a for a in input_mask]
+# input_mask = np.array([not a for a in input_mask])
 
 def sanitize(row):
     if len(row) != 16: return
-    return np.ma.masked_array(row, mask=input_mask).compressed()
+    return np.array(row)[input_mask]
+    # return np.ma.masked_array(row, mask=input_mask).compressed()
     # return np.array(row)
     
+def to_bow(s):
+    return [s]
+
+def to_feature(row):
+    res = []
+    if row[0] == 'The Water Lily Pond':
+        res.append(0)
+    elif row[0] == 'The Starry Night':
+        res.append(1)
+    else:
+        res.append(2)
+    
+    res.extend(to_bow(row[1]))
+
+    season = row[2].split(',')
+    if 'Winter' in season:
+        res.append(1)
+    else:
+        res.append(0)
+    if 'Spring' in season:
+        res.append(1)
+    else:
+        res.append(0)
+    if 'Summer' in season:
+        res.append(1)
+    else:
+        res.append(0)
+    if 'Fall' in season:
+        res.append(1)
+    else:
+        res.append(0)
+
+    res.extend(to_bow(row[3]))
+    res.extend(to_bow(row[4]))
+
+    return res
 
 def extract(filename):
-    data = csv.DictReader(open(filename))
+    data = csv.DictReader(open(filename, encoding='utf-8'))
     for i, r in enumerate(data):
         if i == 0: continue
-        a = sanitize(list(r.values()))
+        a = to_feature(sanitize(list(r.values())))
         print(a)
         if a is not None:
             file.append(a)
