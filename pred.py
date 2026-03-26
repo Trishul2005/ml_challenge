@@ -10,6 +10,7 @@ Includes:
 
 import csv
 import sys
+import random
 import pandas as pd
 import numpy as np
 
@@ -198,7 +199,8 @@ from sklearn.model_selection import train_test_split
 # MAIN
 # =========================
 
-file = []
+features = []
+labels = []
 
 # FALSE IS INCLUDED TRUE IS EXCLUDED
 input_mask = [False, True, False, True, False, False, False, False, False, False, False, False, False, True, True, True]
@@ -214,49 +216,55 @@ def to_bow(s):
     return [s]
 
 def to_feature(row):
-    res = []
+    label = []
     if row[0] == 'The Water Lily Pond':
-        res.append(0)
+        label = 0
     elif row[0] == 'The Starry Night':
-        res.append(1)
+        label = 1
     else:
-        res.append(2)
+        label = 2
     
-    res.extend(to_bow(row[1]))
+    feature = []
+    feature.extend(to_bow(row[1]))
 
     season = row[2].split(',')
     if 'Winter' in season:
-        res.append(1)
+        feature.append(1)
     else:
-        res.append(0)
+        feature.append(0)
     if 'Spring' in season:
-        res.append(1)
+        feature.append(1)
     else:
-        res.append(0)
+        feature.append(0)
     if 'Summer' in season:
-        res.append(1)
+        feature.append(1)
     else:
-        res.append(0)
+        feature.append(0)
     if 'Fall' in season:
-        res.append(1)
+        feature.append(1)
     else:
-        res.append(0)
+        feature.append(0)
 
-    res.extend(to_bow(row[3]))
-    res.extend(to_bow(row[4]))
+    feature.extend(to_bow(row[3]))
+    feature.extend(to_bow(row[4]))
 
-    return res
+    return feature, label
 
 def extract(filename):
     data = csv.DictReader(open(filename, encoding='utf-8'))
     for i, r in enumerate(data):
         if i == 0: continue
-        a = to_feature(sanitize(list(r.values())))
-        print(a)
-        if a is not None:
-            file.append(a)
+        feature, label = to_feature(sanitize(list(r.values())))
+        print(feature)
+        if feature is not None:
+            features.append(feature)
+            labels.append(label)
 
+def split_data(features, labels, frac_train, frac_valid, frac_test):
+    assert np.equal(frac_train + frac_valid + frac_test, 1)
 
+    paired = zip(features, labels)
+    random.shuffle(paired)
 
 
 if __name__ == "__main__":
@@ -265,7 +273,9 @@ if __name__ == "__main__":
     # predictions_df = predict_all(test_file)
 
     extract('ml_challenge_dataset.csv')
-    print(file)
+    print(features)
+
+    split_data(features, labels, 0.7, 0.15, 0.15)
 
     # print("\nSample Predictions:")
     # print(predictions_df.head().to_string())
