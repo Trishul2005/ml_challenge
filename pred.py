@@ -205,17 +205,19 @@ input_mask = [False, True, False, True, False, False, False, False, False, False
 input_mask = [not a for a in input_mask]
 
 def sanitize(row):
-    if (len(row) != 16): return
-    return np.ma.masked_array(row, mask=input_mask)
+    if len(row) != 16: return
+    return np.array(np.ma.masked_array(row, mask=input_mask))
+    # return np.array(row)
     
 
 def extract(filename):
     data = csv.DictReader(open(filename))
     for i, r in enumerate(data):
+        print(r)
         if i == 0: continue
-        r = sanitize(list(r))
-        if r is not None:
-            file.append(r)
+        a = sanitize(list(r.values()))
+        if a is not None:
+            file.append(a)
 
 
 
