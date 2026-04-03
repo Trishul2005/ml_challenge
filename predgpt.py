@@ -325,27 +325,8 @@ def predict_all(filename):
     return [LABEL_TO_PAINTING[int(pred)] for pred in preds]
 
 
-def main():
-    all_rows, all_labels = load_training_data()
+def main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, text_vectorizer):
 
-    rows_train, rows_temp, y_train, y_temp = train_test_split(
-        all_rows,
-        all_labels,
-        test_size=0.30,
-        stratify=all_labels,
-    )
-
-    rows_val, rows_test, y_val, y_test = train_test_split(
-        rows_temp,
-        y_temp,
-        test_size=0.50,
-        stratify=y_temp,
-    )
-
-    X_train, [X_val, X_test], structured_vectorizer, text_vectorizer = build_feature_matrices(
-        rows_train,
-        [rows_val, rows_test],
-    )
 
     model = train_model(X_train, y_train)
 
@@ -385,13 +366,34 @@ def main():
 
 
 def get_best():
+    all_rows, all_labels = load_training_data()
+
+    rows_train, rows_temp, y_train, y_temp = train_test_split(
+        all_rows,
+        all_labels,
+        test_size=0.30,
+        stratify=all_labels,
+    )
+
+    rows_val, rows_test, y_val, y_test = train_test_split(
+        rows_temp,
+        y_temp,
+        test_size=0.50,
+        stratify=y_temp,
+    )
+
+    X_train, [X_val, X_test], structured_vectorizer, text_vectorizer = build_feature_matrices(
+        rows_train,
+        [rows_val, rows_test],
+    )
+
     N = 100
     max_acc = (0, 0, 0)
     total_acc = (0, 0, 0)
     vec1, vec2 = None, None
     m = None
     for i in range(N):
-        a, b, c, x, y, z = main()
+        a, b, c, x, y, z = main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, text_vectorizer)
         acc = (x, y, z)
         if acc[1:] > max_acc[1:]:
             max_acc = acc
