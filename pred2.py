@@ -360,6 +360,53 @@ def train_naive_bayes(X, y):
         "log_likelihoods": numpy.log(likelihoods),
     }
 
+from sklearn.neural_network import MLPClassifier
+from sklearn.preprocessing import LabelEncoder
+import numpy as np
+
+def train_neural_net(X, y):
+    le = LabelEncoder()
+    y_encoded = le.fit_transform(y) if y.dtype == object else y
+
+    model = MLPClassifier(
+        hidden_layer_sizes=(256, 128),
+        activation='relu',
+        solver='adam',
+        alpha=1e-4,          # L2 regularization (replaces your SMOOTHING role)
+        batch_size='auto',
+        learning_rate='adaptive',
+        max_iter=200,
+        early_stopping=True,
+        validation_fraction=0.3,
+        random_state=42,
+        verbose=False,
+    )
+
+    model.fit(X, y_encoded)
+    return model
+
+
+def predict_neural_net(model, X):
+    return model.predict(X)
+
+
+def predict_proba_neural_net(model, X):
+    return model.predict_proba(X)
+
+from sklearn.ensemble import RandomForestClassifier
+
+def train_random_forest(X, y):
+    model = RandomForestClassifier(
+        n_estimators=200,
+        max_depth=15,
+        min_samples_split=2,
+        min_samples_leaf=1,
+        max_features='sqrt',   # standard for classification
+        random_state=42,
+        n_jobs=-1,             # use all cores
+    )
+    model.fit(X, y)
+    return model
 
 def predict_matrix(model, X):
     scores = X.dot(model["log_likelihoods"].T) + model["priors"]
@@ -387,11 +434,15 @@ def fit_model():
     vocab, vocab_index = build_vocab(train_rows)
     X = rows_to_matrix(train_rows, vocab_index)
     model = train_naive_bayes(X, y)
+    model2 = train_neural_net(X, y)
+    model3 = train_random_forest(X, y)
 
     return {
         "vocab": vocab,
         "vocab_index": vocab_index,
         "model": model,
+        "model2": model2,
+        "model3": model3,
     }
 
 
@@ -400,10 +451,14 @@ def fit_model_from_rows(train_rows, labels):
     vocab, vocab_index = build_vocab(train_rows)
     X = rows_to_matrix(train_rows, vocab_index)
     model = train_naive_bayes(X, y)
+    model2 = train_neural_net(X, y)
+    model3 = train_random_forest(X, y)
     return {
         "vocab": vocab,
         "vocab_index": vocab_index,
         "model": model,
+        "model2": model2,
+        "model3": model3,
     }
 
 
@@ -418,13 +473,18 @@ def predict(x):
     state = ensure_model()
     X = numpy.zeros((1, len(state["vocab_index"])), dtype=float)
     X[0] = to_BoW(x, state["vocab_index"])
+    
+    pred = state["model2"].predict(X)[0]
+    return PAINTINGS[int(pred)]
     pred = predict_matrix(state["model"], X)[0]
     return PAINTINGS[int(pred)]
+
 
 
 def accuracy_for_rows(state, rows, labels):
     X = rows_to_matrix(rows, state["vocab_index"])
     preds = predict_matrix(state["model"], X)
+    preds = state["model2"].predict(X)
     labels = numpy.array(labels, dtype=int)
     return float(numpy.mean(preds == labels))
 
@@ -469,6 +529,10 @@ def evaluate_model():
 
     state = fit_model_from_rows(train_rows, train_labels)
 
+    print(state["model2"].coefs_)
+    print(state["model2"].intercepts_)
+
+
     train_acc = accuracy_for_rows(state, train_rows, train_labels)
     val_acc = accuracy_for_rows(state, val_rows, val_labels)
     test_acc = accuracy_for_rows(state, test_rows, test_labels)
@@ -500,7 +564,7 @@ if __name__ == "__main__":
         "val={:.4f},".format(val_acc),
         "test={:.4f}".format(test_acc),
     )
-    test_file = sys.argv[1] if len(sys.argv) == 2 else training_filename()
-    preds = predict_all(test_file)
-    print("Generated", len(preds), "predictions.")
-    print(preds[:10])
+    # test_file = sys.argv[1] if len(sys.argv) == 2 else training_filename()
+    # preds = predict_all(test_file)
+    # print("Generated", len(preds), "predictions.")
+    # print(preds[:10])

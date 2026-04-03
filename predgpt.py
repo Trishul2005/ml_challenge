@@ -18,7 +18,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
-
+from joblib import dump, load
 
 TRAIN_FILE = Path(__file__).with_name("ml_challenge_dataset.csv")
 LABEL_COL = "Painting"
@@ -181,6 +181,9 @@ def build_feature_matrices(train_rows, other_rows):
 
     return train_X, other_matrices, structured_vectorizer, text_vectorizer
 
+def build_feature_matricies(train_rows, other_rows):
+    pass
+
 
 def transform_rows(rows, structured_vectorizer, text_vectorizer):
     struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
@@ -190,10 +193,11 @@ def transform_rows(rows, structured_vectorizer, text_vectorizer):
 
 def train_model(X_train, y_train):
     model = RandomForestClassifier(
-        n_estimators=900,
+        n_estimators=100,
+        max_depth=None,
         class_weight="balanced_subsample",
         max_features="sqrt",
-        n_jobs=-1,
+        n_jobs=10,
     )
     model.fit(X_train, y_train)
     return model
@@ -260,6 +264,9 @@ def main():
     print(f"Generated {len(predictions)} predictions.")
     print(predictions[:10])
 
+    dump(final_model, 'random_forest.joblib')
+    data = load('random_forest.joblib')
+    data.to_csv('random_forest.csv', index=False)
 
 if __name__ == "__main__":
     main()
