@@ -1,0 +1,217 @@
+|--- What season does this art piece remind you of?=Spring <= 0.5000
+|   |--- text::weird <= 0.5000
+|   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 2.5000
+|   |   |   |--- text::invokes <= 1.5000
+|   |   |   |   |--- objects <= 3.5000
+|   |   |   |   |   |--- text::running <= 0.5000
+|   |   |   |   |   |   |--- text::flavors <= 0.5000
+|   |   |   |   |   |   |   |--- text::silence <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::bit anxious <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and dizzy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 29
+|   |   |   |   |   |   |   |   |   |--- text::and dizzy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::bit anxious >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::the swirls <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::the swirls >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::silence >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::flavors >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::running >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- objects >  3.5000
+|   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Friends <= 0.5000
+|   |   |   |   |   |   |   |--- text::slow <= 0.5000
+|   |   |   |   |   |   |   |   |--- price <= 125.0000
+|   |   |   |   |   |   |   |   |   |--- text::the sound <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::be like <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- text::be like >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::the sound >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::running <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::running >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- price >  125.0000
+|   |   |   |   |   |   |   |   |   |--- text::had <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::piece it <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::piece it >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::had >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::slow >  0.5000
+|   |   |   |   |   |   |   |   |--- text::drooping <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the painting <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::the painting >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::drooping >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Friends >  0.5000
+|   |   |   |   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::it will <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Strangers <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::melted <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- text::melted >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Strangers >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::extremely <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::extremely >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::it will >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |   |   |   |--- text::into <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- This art piece makes me feel content. <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- This art piece makes me feel content. >  3.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::into >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |--- text::slow <= 0.5000
+|   |   |   |   |   |   |   |--- text::soothing <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::with large <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cacophony <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- text::cacophony >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::with large >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::happy >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::soothing >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::slow >  0.5000
+|   |   |   |   |   |   |   |--- text::creating <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::creating >  0.5000
+|   |   |   |   |   |   |   |   |--- text::overall the <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::overall the >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::invokes >  1.5000
+|   |   |   |   |--- class: 0.0
+|   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  2.5000
+|   |   |   |--- text::elegant <= 0.5000
+|   |   |   |   |--- text::around <= 0.5000
+|   |   |   |   |   |--- text::depressing and <= 0.5000
+|   |   |   |   |   |   |--- text::and deep <= 0.5000
+|   |   |   |   |   |   |   |--- text::tone <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::like time <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::sandwich <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- price <= -0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- price >  -0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |--- text::sandwich >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::like time >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::tone >  0.5000
+|   |   |   |   |   |   |   |   |--- This art piece makes me feel uneasy. <= 2.0000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- This art piece makes me feel uneasy. >  2.0000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::and deep >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::depressing and >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::around >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::elegant >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::weird >  0.5000
+|   |   |--- class: 2.0
+|--- What season does this art piece remind you of?=Spring >  0.5000
+|   |--- text::slowly with <= 0.5000
+|   |   |--- This art piece makes me feel uneasy. <= 3.5000
+|   |   |   |--- text::the beauty <= 0.5000
+|   |   |   |   |--- text::and insignificant <= 0.5000
+|   |   |   |   |   |--- text::struck <= 0.5000
+|   |   |   |   |   |   |--- text::night <= 0.5000
+|   |   |   |   |   |   |   |--- text::composed <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::calmer <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::synth <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::collected <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 44
+|   |   |   |   |   |   |   |   |   |   |--- text::collected >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::synth >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::calmer >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::composed >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::night >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::struck >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::and insignificant >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::the beauty >  0.5000
+|   |   |   |   |--- text::one <= 0.5000
+|   |   |   |   |   |--- text::be <= 0.5000
+|   |   |   |   |   |   |--- text::vibrant <= 0.5000
+|   |   |   |   |   |   |   |--- text::the eye <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::pond <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::and >  2.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::pond >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::the eye >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::vibrant >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::be >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::one >  0.5000
+|   |   |   |   |   |--- text::calm <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::calm >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |--- This art piece makes me feel uneasy. >  3.5000
+|   |   |   |--- text::happy hot <= 0.5000
+|   |   |   |   |--- text::background <= 0.5000
+|   |   |   |   |   |--- text::spring roll <= 0.5000
+|   |   |   |   |   |   |--- text::kiwi <= 0.5000
+|   |   |   |   |   |   |   |--- text::flowing and <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::is fading <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::of energy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::of energy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::is fading >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::flowing and >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::kiwi >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::spring roll >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::background >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::happy hot >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::slowly with >  0.5000
+|   |   |--- class: 1.0

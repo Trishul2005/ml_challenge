@@ -1,0 +1,145 @@
+|--- text::clocks <= 0.5000
+|   |--- text::and cheerful <= 0.5000
+|   |   |--- text::caesar salad <= 0.5000
+|   |   |   |--- What season does this art piece remind you of?=Summer <= 0.5000
+|   |   |   |   |--- text::green <= 0.5000
+|   |   |   |   |   |--- text::feel calm <= 0.5000
+|   |   |   |   |   |   |--- text::uneasy <= 0.5000
+|   |   |   |   |   |   |   |--- text::more <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::ticking <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::want to <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::bright <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |   |--- text::bright >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- text::want to >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and calm <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::and calm >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::ticking >  0.5000
+|   |   |   |   |   |   |   |   |   |--- objects <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- objects >  3.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::more >  0.5000
+|   |   |   |   |   |   |   |   |--- text::weird <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::by <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::it's <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::it's >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::by >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::weird >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::uneasy >  0.5000
+|   |   |   |   |   |   |   |--- text::way to <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::sense <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::with long <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::uneasy and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::uneasy and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::with long >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::sense >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::way to >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::feel calm >  0.5000
+|   |   |   |   |   |   |--- text::chirping <= 0.5000
+|   |   |   |   |   |   |   |--- text::music very <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::matcha cake <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::of the <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::probably <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::probably >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::of the >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::matcha cake >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::music very >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::chirping >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::green >  0.5000
+|   |   |   |   |   |--- text::walking <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::walking >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- What season does this art piece remind you of?=Summer >  0.5000
+|   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |--- text::storm <= 0.5000
+|   |   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |   |--- text::think <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::flowing <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::with <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- text::with >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::brings <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- text::brings >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::flowing >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::think >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |   |--- price <= 75.0000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- price >  75.0000
+|   |   |   |   |   |   |   |   |--- text::it <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::really good <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::really good >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::it >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::storm >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |--- text::by and <= 0.5000
+|   |   |   |   |   |   |--- text::toast <= 0.5000
+|   |   |   |   |   |   |   |--- text::played on <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::about the <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::lonely <= 1.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- text::lonely >  1.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::typically <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::typically >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::about the >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::be slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::me of <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::me of >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::be slow >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::played on >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::toast >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::by and >  0.5000
+|   |   |   |   |   |   |--- text::come to <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::come to >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |--- text::caesar salad >  0.5000
+|   |   |   |--- class: 0.0
+|   |--- text::and cheerful >  0.5000
+|   |   |--- class: 0.0
+|--- text::clocks >  0.5000
+|   |--- class: 2.0

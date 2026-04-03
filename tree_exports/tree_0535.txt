@@ -1,0 +1,154 @@
+|--- text::scenery <= 0.5000
+|   |--- text::trying to <= 0.5000
+|   |   |--- text::above the <= 0.5000
+|   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |   |   |--- text::feel peaceful <= 0.5000
+|   |   |   |   |   |--- text::awe <= 0.5000
+|   |   |   |   |   |   |--- text::ticking <= 0.5000
+|   |   |   |   |   |   |   |--- text::spring <= 0.5000
+|   |   |   |   |   |   |   |   |--- log_price <= 5.0893
+|   |   |   |   |   |   |   |   |   |--- text::some small <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::melted <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 50
+|   |   |   |   |   |   |   |   |   |   |--- text::melted >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::some small >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- log_price >  5.0893
+|   |   |   |   |   |   |   |   |   |--- text::that <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 35
+|   |   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |--- text::that >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::well <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::well >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- text::spring >  0.5000
+|   |   |   |   |   |   |   |   |--- text::the contrast <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::the contrast >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::ticking >  0.5000
+|   |   |   |   |   |   |   |--- text::seen <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::seen >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::awe >  0.5000
+|   |   |   |   |   |   |--- text::was food <= 0.5000
+|   |   |   |   |   |   |   |--- text::scheme <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::scheme >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::was food >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::feel peaceful >  0.5000
+|   |   |   |   |   |--- log_price <= 5.2380
+|   |   |   |   |   |   |--- text::and relaxing <= 0.5000
+|   |   |   |   |   |   |   |--- text::the <= 4.0000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::the >  4.0000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::and relaxing >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- log_price >  5.2380
+|   |   |   |   |   |   |--- text::bit <= 1.0000
+|   |   |   |   |   |   |   |--- text::be <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::be >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::bit >  1.0000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |   |   |--- text::feel <= 0.5000
+|   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |--- text::the city <= 0.5000
+|   |   |   |   |   |   |   |--- text::itself <= 0.5000
+|   |   |   |   |   |   |   |   |--- colours_x_objects <= 3.5000
+|   |   |   |   |   |   |   |   |   |--- text::flutes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::pizza <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- text::pizza >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::flutes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- colours_x_objects >  3.5000
+|   |   |   |   |   |   |   |   |   |--- text::high pitch <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::blueberry lemon <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
+|   |   |   |   |   |   |   |   |   |   |--- text::blueberry lemon >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::high pitch >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::irregular <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::irregular >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::itself >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::the city >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |--- text::something <= 0.5000
+|   |   |   |   |   |   |   |--- text::light salad <= 0.5000
+|   |   |   |   |   |   |   |   |--- intensity_x_colours <= 3.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- intensity_x_colours >  3.5000
+|   |   |   |   |   |   |   |   |   |--- text::to it <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and beautiful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- text::and beautiful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::to it >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::light salad >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::something >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::feel >  0.5000
+|   |   |   |   |   |--- text::re <= 0.5000
+|   |   |   |   |   |   |--- text::upbeat <= 0.5000
+|   |   |   |   |   |   |   |--- text::bread <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::minor key <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::this painting <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- text::this painting >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::piano and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- text::piano and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- text::minor key >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::bread >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::upbeat >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::re >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |--- text::above the >  0.5000
+|   |   |   |--- This art piece makes me feel sombre. <= 2.0000
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- This art piece makes me feel sombre. >  2.0000
+|   |   |   |   |--- class: 1.0
+|   |--- text::trying to >  0.5000
+|   |   |--- text::fast <= 0.5000
+|   |   |   |--- text::trumpets <= 0.5000
+|   |   |   |   |--- text::in its <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::in its >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::trumpets >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::fast >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::scenery >  0.5000
+|   |--- text::overall <= 0.5000
+|   |   |--- class: 0.0
+|   |--- text::overall >  0.5000
+|   |   |--- text::seemed <= 0.5000
+|   |   |   |--- class: 0.0
+|   |   |--- text::seemed >  0.5000
+|   |   |   |--- class: 2.0

@@ -1,0 +1,115 @@
+|--- text::clocks <= 0.5000
+|   |--- text::soft <= 1.5000
+|   |   |--- text::like time <= 0.5000
+|   |   |   |--- text::ticking <= 0.5000
+|   |   |   |   |--- text::relaxed and <= 0.5000
+|   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |   |--- colours_x_objects <= 9.5000
+|   |   |   |   |   |   |   |--- text::get it <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::melted <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- colours_x_objects <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_colours <= 1.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_colours >  1.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |--- colours_x_objects >  3.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::gentle <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |   |--- text::gentle >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- text::melted >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::get it >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- colours_x_objects >  9.5000
+|   |   |   |   |   |   |   |--- text::very upbeat <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::anything <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::colors are <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 33
+|   |   |   |   |   |   |   |   |   |   |--- text::colors are >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::happy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::air <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::air >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::anything >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::very upbeat >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |   |--- text::sand <= 0.5000
+|   |   |   |   |   |   |   |--- text::makes <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::pond <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::hum <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 33
+|   |   |   |   |   |   |   |   |   |   |--- text::hum >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::pudding <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |   |--- text::pudding >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::pond >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::makes >  0.5000
+|   |   |   |   |   |   |   |   |--- text::running <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::birds chirping <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::delicate <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |   |--- text::delicate >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::birds chirping >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::running >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::food would <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::out <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::out >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::food would >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::sand >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::relaxed and >  0.5000
+|   |   |   |   |   |--- text::calm relaxed <= 0.5000
+|   |   |   |   |   |   |--- text::too <= 0.5000
+|   |   |   |   |   |   |   |--- text::overall <= 0.5000
+|   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 2.5000
+|   |   |   |   |   |   |   |   |   |--- text::makes me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::classical music <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::classical music >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::makes me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  2.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::overall >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::too >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::calm relaxed >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::ticking >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::like time >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::soft >  1.5000
+|   |   |--- text::of peaceful <= 0.5000
+|   |   |   |--- text::was food <= 0.5000
+|   |   |   |   |--- intensity_x_objects <= 20.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- intensity_x_objects >  20.5000
+|   |   |   |   |   |--- text::creates <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::creates >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::was food >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::of peaceful >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::clocks >  0.5000
+|   |--- class: 2.0

@@ -1,0 +1,76 @@
+|--- text::time is <= 0.5000
+|   |--- text::stale <= 0.5000
+|   |   |--- text::not sure <= 0.5000
+|   |   |   |--- text::calm and <= 0.5000
+|   |   |   |   |--- text::slipping <= 0.5000
+|   |   |   |   |   |--- text::with light <= 0.5000
+|   |   |   |   |   |   |--- text::weird and <= 0.5000
+|   |   |   |   |   |   |   |--- text::of wonder <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::upbeat and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::to an <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::of time <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 60
+|   |   |   |   |   |   |   |   |   |   |--- text::of time >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::to an >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::upbeat and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::feel like <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::jazz saxophone <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::jazz saxophone >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::feel like >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::of wonder >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::weird and >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::with light >  0.5000
+|   |   |   |   |   |   |--- text::of <= 0.5000
+|   |   |   |   |   |   |   |--- text::since <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::since >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::of >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::slipping >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::calm and >  0.5000
+|   |   |   |   |--- text::piano <= 1.5000
+|   |   |   |   |   |--- text::where <= 0.5000
+|   |   |   |   |   |   |--- text::cream the <= 0.5000
+|   |   |   |   |   |   |   |--- text::peaceful salad <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::violin and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::quiet <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours_x_objects <= 5.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- colours_x_objects >  5.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |--- text::quiet >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::gentle and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::gentle and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::violin and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::peaceful salad >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::cream the >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::where >  0.5000
+|   |   |   |   |   |   |--- text::comforting <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::comforting >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::piano >  1.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::not sure >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::stale >  0.5000
+|   |   |--- class: 2.0
+|--- text::time is >  0.5000
+|   |--- text::like resting <= 0.5000
+|   |   |--- class: 2.0
+|   |--- text::like resting >  0.5000
+|   |   |--- class: 0.0

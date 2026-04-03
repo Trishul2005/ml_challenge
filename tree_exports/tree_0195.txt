@@ -1,0 +1,190 @@
+|--- text::low <= 0.5000
+|   |--- text::if time <= 0.5000
+|   |   |--- text::time <= 0.5000
+|   |   |   |--- text::joyful <= 0.5000
+|   |   |   |   |--- text::surreal <= 0.5000
+|   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |--- text::cheese <= 0.5000
+|   |   |   |   |   |   |   |--- text::dark <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::wonder <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::don't <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::awe <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 45
+|   |   |   |   |   |   |   |   |   |   |--- text::awe >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::don't >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::moonlight sonata <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::moonlight sonata >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::wonder >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::mousse <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::with instruments <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::with instruments >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::mousse >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::dark >  0.5000
+|   |   |   |   |   |   |   |   |--- text::it's <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::heavy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and leaves <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::and leaves >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::heavy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::it's >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::cheese >  0.5000
+|   |   |   |   |   |   |   |--- text::form <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::sandwich <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::hot <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::chirping <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::chirping >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::hot >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::sandwich >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::form >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |--- text::hazy <= 0.5000
+|   |   |   |   |   |   |   |--- text::of warm <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::dark chocolate <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::chirping <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::orchestral <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- text::orchestral >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::chirping >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::dark chocolate >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::of warm >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::hazy >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::surreal >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::joyful >  0.5000
+|   |   |   |   |--- text::beginnings <= 0.5000
+|   |   |   |   |   |--- text::on <= 0.5000
+|   |   |   |   |   |   |--- text::of my <= 0.5000
+|   |   |   |   |   |   |   |--- text::and lonely <= 0.5000
+|   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Strangers <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::of <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::of >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::also <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::also >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Strangers >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::and lonely >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::of my >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::on >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::beginnings >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::time >  0.5000
+|   |   |   |--- text::painting <= 1.5000
+|   |   |   |   |--- text::bridge <= 0.5000
+|   |   |   |   |   |--- text::about <= 0.5000
+|   |   |   |   |   |   |--- text::and flowing <= 0.5000
+|   |   |   |   |   |   |   |--- text::the point <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::mix <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 22.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::thoughtful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::thoughtful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  22.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::underneath <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::underneath >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::mix >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::the point >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::and flowing >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::about >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::bridge >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::painting >  1.5000
+|   |   |   |   |--- text::the painting <= 0.5000
+|   |   |   |   |   |--- text::due to <= 0.5000
+|   |   |   |   |   |   |--- text::fixed <= 0.5000
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count <= 1.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count >  1.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::fixed >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::due to >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::the painting >  0.5000
+|   |   |   |   |   |--- text::have <= 0.5000
+|   |   |   |   |   |   |--- text::imagine <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::imagine >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::have >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |--- text::if time >  0.5000
+|   |   |--- text::soft colors <= 0.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::soft colors >  0.5000
+|   |   |   |--- class: 0.0
+|--- text::low >  0.5000
+|   |--- text::at the <= 0.5000
+|   |   |--- text::mainly mid <= 0.5000
+|   |   |   |--- text::giving <= 0.5000
+|   |   |   |   |--- text::style <= 0.5000
+|   |   |   |   |   |--- text::imagine <= 0.5000
+|   |   |   |   |   |   |--- text::winds <= 0.5000
+|   |   |   |   |   |   |   |--- text::makes me <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::peaceful <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::peaceful >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::makes me >  0.5000
+|   |   |   |   |   |   |   |   |--- text::the <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::soundtrack that <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::heavy bass <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::heavy bass >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::soundtrack that >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::the >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::describe <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::describe >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::winds >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::imagine >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::style >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::giving >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::mainly mid >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::at the >  0.5000
+|   |   |--- text::sky when <= 0.5000
+|   |   |   |--- text::sky <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::sky >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::sky when >  0.5000
+|   |   |   |--- class: 1.0

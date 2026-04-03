@@ -1,0 +1,112 @@
+|--- text::and low <= 0.5000
+|   |--- text::uneasy <= 0.5000
+|   |   |--- text::salad it <= 0.5000
+|   |   |   |--- text::reality <= 0.5000
+|   |   |   |   |--- text::melting <= 0.5000
+|   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Friends <= 0.5000
+|   |   |   |   |   |   |--- text::feeling <= 0.5000
+|   |   |   |   |   |   |   |--- text::happy and <= 0.5000
+|   |   |   |   |   |   |   |   |--- colours_x_objects <= 9.5000
+|   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 11.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::esque <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- text::esque >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  11.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::very upbeat <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- text::very upbeat >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- colours_x_objects >  9.5000
+|   |   |   |   |   |   |   |   |   |--- text::composed <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and emotional <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 37
+|   |   |   |   |   |   |   |   |   |   |--- text::and emotional >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::composed >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::with slight <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::with slight >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::happy and >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::feeling >  0.5000
+|   |   |   |   |   |   |   |--- text::give <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::is in <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::would <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::chirping <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::chirping >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::would >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::is in >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::give >  0.5000
+|   |   |   |   |   |   |   |   |--- text::also very <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::also very >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Friends >  0.5000
+|   |   |   |   |   |   |--- text::sad and <= 0.5000
+|   |   |   |   |   |   |   |--- text::houses <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::garden <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and happy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::no <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 49
+|   |   |   |   |   |   |   |   |   |   |--- text::no >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |--- text::and happy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_colours <= 21.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_colours >  21.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- text::garden >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::houses >  0.5000
+|   |   |   |   |   |   |   |   |--- text::blue colors <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::blue colors >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::sad and >  0.5000
+|   |   |   |   |   |   |   |--- text::it gives <= 0.5000
+|   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Living room <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Living room >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::are <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and <= 3.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::and >  3.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::are >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::it gives >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::melting >  0.5000
+|   |   |   |   |   |--- text::piano track <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::piano track >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::reality >  0.5000
+|   |   |   |   |--- text::if everything <= 0.5000
+|   |   |   |   |   |--- text::your <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::your >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::if everything >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::salad it >  0.5000
+|   |   |   |--- text::should <= 0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- text::should >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::uneasy >  0.5000
+|   |   |--- text::ones <= 0.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::ones >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::and low >  0.5000
+|   |--- text::music <= 0.5000
+|   |   |--- class: 1.0
+|   |--- text::music >  0.5000
+|   |   |--- class: 1.0

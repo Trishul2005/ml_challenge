@@ -1,0 +1,229 @@
+|--- text::low <= 0.5000
+|   |--- text::light <= 0.5000
+|   |   |--- text::awe <= 0.5000
+|   |   |   |--- text::almost <= 0.5000
+|   |   |   |   |--- text::slow <= 0.5000
+|   |   |   |   |   |--- text::chirping and <= 0.5000
+|   |   |   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Spring <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::calm <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::piano melody <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |   |--- text::piano melody >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::campfire <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- text::campfire >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::calm >  0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::swirling <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- text::swirling >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::content <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::content >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Spring >  0.5000
+|   |   |   |   |   |   |   |   |--- text::something that's <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::off <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::birds <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 39
+|   |   |   |   |   |   |   |   |   |   |--- text::birds >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::off >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::different <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::different >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::something that's >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |   |   |--- text::cheesecake <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::quiet at <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::soup this <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::turmoil <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- text::turmoil >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::soup this >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::quiet at >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::cheesecake >  0.5000
+|   |   |   |   |   |   |   |   |--- text::cheesecake it <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::cheesecake it >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::chirping and >  0.5000
+|   |   |   |   |   |   |--- text::and beautiful <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::and beautiful >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::slow >  0.5000
+|   |   |   |   |   |--- text::calm <= 0.5000
+|   |   |   |   |   |   |--- text::peace <= 0.5000
+|   |   |   |   |   |   |   |--- text::nice warm <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::relaxation <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::like cold <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::mid <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 16
+|   |   |   |   |   |   |   |   |   |   |--- text::mid >  1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::like cold >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::relaxation >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::nice warm >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::peace >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::calm >  0.5000
+|   |   |   |   |   |   |--- text::how <= 0.5000
+|   |   |   |   |   |   |   |--- text::life <= 0.5000
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::very <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::very >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::soothing <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::not <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::not >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::soothing >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::life >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::how >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::almost >  0.5000
+|   |   |   |   |--- text::peaceful <= 1.5000
+|   |   |   |   |   |--- text::painting is <= 0.5000
+|   |   |   |   |   |   |--- intensity_x_colours <= 28.0000
+|   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 4.0000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  4.0000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- intensity_x_colours >  28.0000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::painting is >  0.5000
+|   |   |   |   |   |   |--- text::the type <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::the type >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::peaceful >  1.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::awe >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::light >  0.5000
+|   |   |--- text::sound <= 1.5000
+|   |   |   |--- text::noise that <= 0.5000
+|   |   |   |   |--- text::of people <= 0.5000
+|   |   |   |   |   |--- What season does this art piece remind you of?=Spring <= 0.5000
+|   |   |   |   |   |   |--- text::breathe <= 0.5000
+|   |   |   |   |   |   |   |--- text::in the <= 0.5000
+|   |   |   |   |   |   |   |   |--- colours_x_objects <= 8.0000
+|   |   |   |   |   |   |   |   |   |--- text::major <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::major >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- colours_x_objects >  8.0000
+|   |   |   |   |   |   |   |   |   |--- text::this <= 3.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::melting clocks <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::melting clocks >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::this >  3.0000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::in the >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::breathe >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- What season does this art piece remind you of?=Spring >  0.5000
+|   |   |   |   |   |   |--- text::light <= 1.5000
+|   |   |   |   |   |   |   |--- text::sounds there <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::warm <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::very light <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::on <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::on >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::very light >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::warm >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::sounds there >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::light >  1.5000
+|   |   |   |   |   |   |   |--- text::cheese <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::together <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::together >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::cheese >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::of people >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::noise that >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::sound >  1.5000
+|   |   |   |--- text::for this <= 0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- text::for this >  0.5000
+|   |   |   |   |--- class: 1.0
+|--- text::low >  0.5000
+|   |--- text::mind <= 0.5000
+|   |   |--- text::drawn <= 0.5000
+|   |   |   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |   |   |--- text::high <= 0.5000
+|   |   |   |   |   |--- text::form <= 0.5000
+|   |   |   |   |   |   |--- text::left <= 0.5000
+|   |   |   |   |   |   |   |--- This art piece makes me feel content. <= 4.5000
+|   |   |   |   |   |   |   |   |--- text::has <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::was <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_colours <= 7.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_colours >  7.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::was >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::has >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- This art piece makes me feel content. >  4.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::left >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::form >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::high >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |--- text::the <= 3.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::the >  3.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |--- log_price <= 7.7131
+|   |   |   |   |   |   |--- text::salad <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::salad >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- log_price >  7.7131
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |--- text::drawn >  0.5000
+|   |   |   |--- class: 0.0
+|   |--- text::mind >  0.5000
+|   |   |--- colours <= 2.5000
+|   |   |   |--- class: 0.0
+|   |   |--- colours >  2.5000
+|   |   |   |--- class: 1.0

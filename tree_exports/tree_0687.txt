@@ -1,0 +1,115 @@
+|--- text::feel warm <= 0.5000
+|   |--- text::chirping and <= 0.5000
+|   |   |--- text::fresh <= 0.5000
+|   |   |   |--- text::blueberry <= 0.5000
+|   |   |   |   |--- text::happy pizza <= 0.5000
+|   |   |   |   |   |--- text::upbeat <= 0.5000
+|   |   |   |   |   |   |--- text::slow and <= 0.5000
+|   |   |   |   |   |   |   |--- text::it makes <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::caesar <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::as time <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::spring <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 44
+|   |   |   |   |   |   |   |   |   |   |--- text::spring >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- text::as time >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::caesar >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::it makes >  0.5000
+|   |   |   |   |   |   |   |   |--- intensity_x_objects <= 22.5000
+|   |   |   |   |   |   |   |   |   |--- text::calm and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::extremely calm <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 29
+|   |   |   |   |   |   |   |   |   |   |--- text::extremely calm >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::calm and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::be fast <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::be fast >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- intensity_x_objects >  22.5000
+|   |   |   |   |   |   |   |   |   |--- text::live in <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::soft piano <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
+|   |   |   |   |   |   |   |   |   |   |--- text::soft piano >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::live in >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::slow and >  0.5000
+|   |   |   |   |   |   |   |--- text::lots of <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::tones <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::is <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::soup slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- text::soup slow >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::is >  3.5000
+|   |   |   |   |   |   |   |   |   |   |--- objects <= 4.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- objects >  4.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::tones >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::time just <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::time just >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::lots of >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::upbeat >  0.5000
+|   |   |   |   |   |   |--- text::at the <= 0.5000
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::swirling <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::something that <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::sandwich <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::sandwich >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::something that >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::swirling >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::at the >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::happy pizza >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::blueberry >  0.5000
+|   |   |   |   |--- text::sweet <= 0.5000
+|   |   |   |   |   |--- text::kind <= 0.5000
+|   |   |   |   |   |   |--- text::on <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::on >  0.5000
+|   |   |   |   |   |   |   |--- text::seeing <= 0.5000
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::seeing >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::kind >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::sweet >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |--- text::fresh >  0.5000
+|   |   |   |--- text::the tempo <= 0.5000
+|   |   |   |   |--- text::forgotten <= 0.5000
+|   |   |   |   |   |--- objects <= 11.0000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- objects >  11.0000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::forgotten >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::the tempo >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::chirping and >  0.5000
+|   |   |--- class: 0.0
+|--- text::feel warm >  0.5000
+|   |--- intensity_x_colours <= 28.0000
+|   |   |--- class: 0.0
+|   |--- intensity_x_colours >  28.0000
+|   |   |--- This art piece makes me feel uneasy. <= 3.0000
+|   |   |   |--- class: 0.0
+|   |   |--- This art piece makes me feel uneasy. >  3.0000
+|   |   |   |--- class: 2.0

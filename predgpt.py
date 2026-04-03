@@ -18,6 +18,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+from sklearn.tree import export_text
 
 
 TRAIN_FILE = Path(__file__).with_name("ml_challenge_dataset.csv")
@@ -193,10 +194,37 @@ def train_model(X_train, y_train):
         n_estimators=900,
         class_weight="balanced_subsample",
         max_features="sqrt",
-        n_jobs=-1,
+        n_jobs=1,
     )
     model.fit(X_train, y_train)
     return model
+
+
+def build_feature_names(structured_vectorizer, text_vectorizer):
+    struct_names = list(structured_vectorizer.get_feature_names_out())
+    text_names = [f"text::{name}" for name in text_vectorizer.get_feature_names_out()]
+    return struct_names + text_names
+
+
+def export_forest_trees(model, feature_names, output_dir):
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    index_file = output_path / "forest_index.txt"
+    with index_file.open("w", encoding="utf-8") as idx:
+        idx.write(f"n_trees={len(model.estimators_)}\n")
+        idx.write(f"n_features={len(feature_names)}\n")
+        idx.write("\n")
+
+        for i, estimator in enumerate(model.estimators_):
+            tree_file = output_path / f"tree_{i:04d}.txt"
+            tree_text = export_text(
+                estimator,
+                feature_names=feature_names,
+                decimals=4,
+            )
+            tree_file.write_text(tree_text, encoding="utf-8")
+            idx.write(f"{i}\t{tree_file.name}\n")
 
 
 def predict_all(filename):
@@ -251,6 +279,13 @@ def main():
     # Retrain on the full labeled dataset before generating predictions.
     X_full, _, structured_vectorizer, text_vectorizer = build_feature_matrices(all_rows, [])
     final_model = train_model(X_full, all_labels)
+
+    if len(sys.argv) >= 2 and sys.argv[1] == "--export-trees":
+        out_dir = Path(sys.argv[2]) if len(sys.argv) >= 3 else Path("tree_exports")
+        feature_names = build_feature_names(structured_vectorizer, text_vectorizer)
+        export_forest_trees(final_model, feature_names, out_dir)
+        print(f"Exported {len(final_model.estimators_)} trees to {out_dir}")
+        return
 
     test_file = Path(sys.argv[1]) if len(sys.argv) == 2 else TRAIN_FILE
     prediction_rows = load_rows(test_file)

@@ -1,0 +1,145 @@
+|--- text::life is <= 0.5000
+|   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |--- text::passage of <= 0.5000
+|   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |--- text::slipping away <= 0.5000
+|   |   |   |   |   |--- text::lack <= 0.5000
+|   |   |   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |   |   |--- text::night <= 0.5000
+|   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::catch <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::state of <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 42
+|   |   |   |   |   |   |   |   |   |   |--- text::state of >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::catch >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::slowed <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::to forget <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |   |   |--- text::to forget >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::slowed >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::night >  0.5000
+|   |   |   |   |   |   |   |   |--- text::air <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::air >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |   |   |--- text::at ease <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::soothing with <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::peaceful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::is very <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |   |--- text::is very >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- text::peaceful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::mysterious <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- text::mysterious >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::soothing with >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::enjoy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::enjoy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::at ease >  0.5000
+|   |   |   |   |   |   |   |   |--- text::played <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::had <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::had >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::played >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::lack >  0.5000
+|   |   |   |   |   |   |--- text::moves <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::moves >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::slipping away >  0.5000
+|   |   |   |   |   |--- text::feel unstable <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::feel unstable >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::happy >  0.5000
+|   |   |   |   |--- text::something like <= 0.5000
+|   |   |   |   |   |--- text::active <= 0.5000
+|   |   |   |   |   |   |--- text::whimsical <= 0.5000
+|   |   |   |   |   |   |   |--- text::very <= 1.5000
+|   |   |   |   |   |   |   |   |--- text::day <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::best <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::top <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |   |   |   |   |   |--- text::top >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::best >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::day >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::have <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::that the <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::that the >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::have >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::very >  1.5000
+|   |   |   |   |   |   |   |   |--- text::chaos in <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::makes me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::makes me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::chaos in >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::whimsical >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::active >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::something like >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::passage of >  0.5000
+|   |   |   |--- text::painting <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::painting >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |--- text::island <= 0.5000
+|   |   |   |--- text::wonder <= 0.5000
+|   |   |   |   |--- text::blueberry <= 0.5000
+|   |   |   |   |   |--- text::missing <= 0.5000
+|   |   |   |   |   |   |--- text::desolate <= 0.5000
+|   |   |   |   |   |   |   |--- text::the passing <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::stretched <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::about <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |   |   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- text::about >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and the <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::and the >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::stretched >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::the passing >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::desolate >  0.5000
+|   |   |   |   |   |   |   |--- text::slow and <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::slow and >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::missing >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::blueberry >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::wonder >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::island >  0.5000
+|   |   |   |--- class: 2.0
+|--- text::life is >  0.5000
+|   |--- text::to make <= 0.5000
+|   |   |--- class: 2.0
+|   |--- text::to make >  0.5000
+|   |   |--- class: 2.0

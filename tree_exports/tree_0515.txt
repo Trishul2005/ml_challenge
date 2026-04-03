@@ -1,0 +1,175 @@
+|--- text::which <= 0.5000
+|   |--- text::happy <= 0.5000
+|   |   |--- text::empty <= 0.5000
+|   |   |   |--- text::melted <= 0.5000
+|   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |--- text::time and <= 0.5000
+|   |   |   |   |   |   |--- text::is quite <= 0.5000
+|   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::salad with <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::soup slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::natural <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 40
+|   |   |   |   |   |   |   |   |   |   |--- text::natural >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- text::soup slow >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::salad with >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |   |   |   |   |   |   |--- text::with lots <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::cheesecake <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 11.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  11.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |--- text::cheesecake >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::with lots >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::is quite >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::time and >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |--- intensity_x_colours <= 22.5000
+|   |   |   |   |   |   |--- text::slight <= 0.5000
+|   |   |   |   |   |   |   |--- price <= 22.5000
+|   |   |   |   |   |   |   |   |--- text::why <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::blues <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::blues >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::why >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- price >  22.5000
+|   |   |   |   |   |   |   |   |--- text::soundtrack <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::mildly <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours_x_objects <= 27.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- colours_x_objects >  27.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::mildly >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::soundtrack >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::be consistent <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::slow soundtrack <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::slow soundtrack >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::be consistent >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::slight >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- intensity_x_colours >  22.5000
+|   |   |   |   |   |   |--- text::experiences <= 0.5000
+|   |   |   |   |   |   |   |--- text::sad ice <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::low and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::strings <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::strings >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  3.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and low <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::and low >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::low and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::sad ice >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::experiences >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::melted >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::empty >  0.5000
+|   |   |   |--- text::sound of <= 0.5000
+|   |   |   |   |--- text::light <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::light >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::sound of >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::happy >  0.5000
+|   |   |--- text::parfait <= 0.5000
+|   |   |   |--- text::cannot <= 0.5000
+|   |   |   |   |--- text::day <= 0.5000
+|   |   |   |   |   |--- text::blueberry <= 0.5000
+|   |   |   |   |   |   |--- text::relaxed happy <= 0.5000
+|   |   |   |   |   |   |   |--- text::bowl <= 0.5000
+|   |   |   |   |   |   |   |   |--- intensity_x_colours <= 14.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- intensity_x_colours >  14.5000
+|   |   |   |   |   |   |   |   |   |--- text::party <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::ice <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- text::ice >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- text::party >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::bowl >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::relaxed happy >  0.5000
+|   |   |   |   |   |   |   |--- log_price <= 5.6791
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- log_price >  5.6791
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::blueberry >  0.5000
+|   |   |   |   |   |   |--- text::blueberry ice <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::blueberry ice >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::day >  0.5000
+|   |   |   |   |   |--- text::imagination <= 0.5000
+|   |   |   |   |   |   |--- text::is ending <= 0.5000
+|   |   |   |   |   |   |   |--- text::acoustic guitar <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::chicken breast <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::my day <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::my day >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::chicken breast >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::acoustic guitar >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::is ending >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::imagination >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::cannot >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::parfait >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::which >  0.5000
+|   |--- text::in dream <= 0.5000
+|   |   |--- text::like time <= 0.5000
+|   |   |   |--- text::this painting <= 1.5000
+|   |   |   |   |--- text::that rise <= 0.5000
+|   |   |   |   |   |--- text::summer and <= 0.5000
+|   |   |   |   |   |   |--- text::how fragile <= 0.5000
+|   |   |   |   |   |   |   |--- text::bland <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::and <= 3.5000
+|   |   |   |   |   |   |   |   |   |--- text::the bridge <= 1.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::disturbed <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- text::disturbed >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::the bridge >  1.0000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::and >  3.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::bland >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::how fragile >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::summer and >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::that rise >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::this painting >  1.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::like time >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::in dream >  0.5000
+|   |   |--- class: 2.0

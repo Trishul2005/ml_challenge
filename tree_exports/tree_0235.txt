@@ -1,0 +1,121 @@
+|--- text::eerie <= 0.5000
+|   |--- text::and little <= 0.5000
+|   |   |--- text::very slow <= 0.5000
+|   |   |   |--- text::night <= 0.5000
+|   |   |   |   |--- text::bright and <= 0.5000
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 2.5000
+|   |   |   |   |   |   |--- text::lonely <= 0.5000
+|   |   |   |   |   |   |   |--- text::ticking <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::watermelon <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::chirping <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::away <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 52
+|   |   |   |   |   |   |   |   |   |   |--- text::away >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- text::chirping >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::makes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::makes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- text::watermelon >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::can see <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::can see >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::ticking >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::lonely >  0.5000
+|   |   |   |   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |   |   |   |--- text::slow minimal <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::steady <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::steady >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::slow minimal >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  2.5000
+|   |   |   |   |   |   |--- text::tone with <= 0.5000
+|   |   |   |   |   |   |   |--- price <= 1.5000
+|   |   |   |   |   |   |   |   |--- text::it makes <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::to <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cereal <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::cereal >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::to >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::it makes >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- price >  1.5000
+|   |   |   |   |   |   |   |   |--- text::honey the <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cream <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
+|   |   |   |   |   |   |   |   |   |   |--- text::cream >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::also <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- text::also >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |--- text::honey the >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::tone with >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::bright and >  0.5000
+|   |   |   |   |   |--- text::afternoon <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::afternoon >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::night >  0.5000
+|   |   |   |   |--- text::feel that <= 0.5000
+|   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |--- intensity <= 6.5000
+|   |   |   |   |   |   |   |   |--- text::everyone is <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::roll <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::in awe <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::in awe >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::roll >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::everyone is >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- intensity >  6.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::feel that >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::very slow >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::and little >  0.5000
+|   |   |--- text::notes that <= 0.5000
+|   |   |   |--- text::warm <= 0.5000
+|   |   |   |   |--- text::feels <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::feels >  0.5000
+|   |   |   |   |   |--- text::in the <= 1.0000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::in the >  1.0000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::warm >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::notes that >  0.5000
+|   |   |   |--- class: 0.0
+|--- text::eerie >  0.5000
+|   |--- text::and <= 0.5000
+|   |   |--- text::ticking <= 0.5000
+|   |   |   |--- text::uneasy <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::uneasy >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::ticking >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::and >  0.5000
+|   |   |--- class: 2.0

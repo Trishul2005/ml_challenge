@@ -1,0 +1,109 @@
+|--- text::town <= 0.5000
+|   |--- text::vivaldi <= 0.5000
+|   |   |--- text::night sky <= 0.5000
+|   |   |   |--- text::of time <= 0.5000
+|   |   |   |   |--- text::blueberry pie <= 0.5000
+|   |   |   |   |   |--- text::how <= 0.5000
+|   |   |   |   |   |   |--- text::wonder <= 0.5000
+|   |   |   |   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::bright and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::chocolate <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cheerful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 52
+|   |   |   |   |   |   |   |   |   |   |--- text::cheerful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- text::chocolate >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::moments <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::moments >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::bright and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |   |   |   |--- text::overall <= 1.5000
+|   |   |   |   |   |   |   |   |   |--- text::create <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::edges <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- text::edges >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::create >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::overall >  1.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::wonder >  0.5000
+|   |   |   |   |   |   |   |--- text::this is <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::quietly <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::in <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::of <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::of >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::in >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::quietly >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::this is >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::how >  0.5000
+|   |   |   |   |   |   |--- text::beautiful <= 0.5000
+|   |   |   |   |   |   |   |--- text::sombre blues <= 1.0000
+|   |   |   |   |   |   |   |   |--- text::and think <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::of things <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Strangers <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Strangers >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::of things >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::and think >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::sombre blues >  1.0000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::beautiful >  0.5000
+|   |   |   |   |   |   |   |--- intensity_x_objects <= 6.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- intensity_x_objects >  6.5000
+|   |   |   |   |   |   |   |   |--- text::i've seen <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::i've seen >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::blueberry pie >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::of time >  0.5000
+|   |   |   |   |--- text::melody and <= 0.5000
+|   |   |   |   |   |--- text::sleepy <= 0.5000
+|   |   |   |   |   |   |--- text::passage <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::passage >  0.5000
+|   |   |   |   |   |   |   |--- text::slipping by <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::makes <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::sad music <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::there <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::there >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::sad music >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::makes >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::slipping by >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::sleepy >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::melody and >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::night sky >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::vivaldi >  0.5000
+|   |   |--- text::walking <= 0.5000
+|   |   |   |--- class: 0.0
+|   |   |--- text::walking >  0.5000
+|   |   |   |--- class: 0.0
+|--- text::town >  0.5000
+|   |--- text::and energy <= 0.5000
+|   |   |--- class: 1.0
+|   |--- text::and energy >  0.5000
+|   |   |--- class: 1.0

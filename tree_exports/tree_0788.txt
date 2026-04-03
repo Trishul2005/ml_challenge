@@ -1,0 +1,175 @@
+|--- text::trying <= 0.5000
+|   |--- text::calm and <= 0.5000
+|   |   |--- text::green <= 0.5000
+|   |   |   |--- text::singing <= 0.5000
+|   |   |   |   |--- text::weird <= 0.5000
+|   |   |   |   |   |--- text::dressing <= 0.5000
+|   |   |   |   |   |   |--- text::away <= 0.5000
+|   |   |   |   |   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::of spring <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::sky <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
+|   |   |   |   |   |   |   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 31
+|   |   |   |   |   |   |   |   |   |--- text::sky >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::passes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::passes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::of spring >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::happy >  0.5000
+|   |   |   |   |   |   |   |   |--- text::not <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::little <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the stars <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- text::the stars >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::little >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and thoughtful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::and thoughtful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::not >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and feel <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::lack <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::lack >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::and feel >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::away >  0.5000
+|   |   |   |   |   |   |   |--- text::birdsong and <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::peaceful <= 1.5000
+|   |   |   |   |   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::has <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::has >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::swirls <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::swirls >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::peaceful >  1.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::birdsong and >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::dressing >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::weird >  0.5000
+|   |   |   |   |   |--- text::this <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::this >  0.5000
+|   |   |   |   |   |   |--- text::and <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::and >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::singing >  0.5000
+|   |   |   |   |--- text::like <= 0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::like >  0.5000
+|   |   |   |   |   |--- text::in the <= 0.5000
+|   |   |   |   |   |   |--- text::and flowing <= 0.5000
+|   |   |   |   |   |   |   |--- text::me feel <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::me feel >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::and flowing >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::in the >  0.5000
+|   |   |   |   |   |   |--- text::be consistent <= 0.5000
+|   |   |   |   |   |   |   |--- text::painting makes <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::painting makes >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::be consistent >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |--- text::green >  0.5000
+|   |   |   |--- text::because they <= 0.5000
+|   |   |   |   |--- text::soundtrack <= 0.5000
+|   |   |   |   |   |--- price <= 2750.0000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- price >  2750.0000
+|   |   |   |   |   |   |--- text::with <= 1.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::with >  1.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::soundtrack >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::because they >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::calm and >  0.5000
+|   |   |--- text::from the <= 0.5000
+|   |   |   |--- text::also bit <= 0.5000
+|   |   |   |   |--- text::flute <= 0.5000
+|   |   |   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |   |   |--- text::at the <= 0.5000
+|   |   |   |   |   |   |   |--- price <= 1750.0000
+|   |   |   |   |   |   |   |   |--- text::kalimba <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and bright <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- text::and bright >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::kalimba >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- price >  1750.0000
+|   |   |   |   |   |   |   |   |--- text::serene <= 1.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::interspersed <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::interspersed >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::painting also <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::painting also >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::serene >  1.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::at the >  0.5000
+|   |   |   |   |   |   |   |--- text::pads <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::pads >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::happy >  0.5000
+|   |   |   |   |   |   |--- colours <= 2.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- colours >  2.5000
+|   |   |   |   |   |   |   |--- text::hopeful <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::hopeful >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::flute >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::also bit >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::from the >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::trying >  0.5000
+|   |--- text::on <= 0.5000
+|   |   |--- text::soundtrack that <= 0.5000
+|   |   |   |--- text::painting <= 0.5000
+|   |   |   |   |--- text::by <= 0.5000
+|   |   |   |   |   |--- text::repetition <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::repetition >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::by >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::painting >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::soundtrack that >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::on >  0.5000
+|   |   |--- text::is the <= 0.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::is the >  0.5000
+|   |   |   |--- class: 2.0

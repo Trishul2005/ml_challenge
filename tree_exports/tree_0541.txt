@@ -1,0 +1,178 @@
+|--- text::joy <= 0.5000
+|   |--- text::rich <= 0.5000
+|   |   |--- text::everything <= 0.5000
+|   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |--- text::and sad <= 0.5000
+|   |   |   |   |   |--- text::sounds of <= 0.5000
+|   |   |   |   |   |   |--- text::warm <= 0.5000
+|   |   |   |   |   |   |   |--- colours_x_objects <= 9.5000
+|   |   |   |   |   |   |   |   |--- colours <= 1.5000
+|   |   |   |   |   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::with <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- text::with >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and quiet <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::and quiet >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- colours >  1.5000
+|   |   |   |   |   |   |   |   |   |--- colours_x_objects <= 5.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::music <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |   |   |--- text::music >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |--- colours_x_objects >  5.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::is beautiful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |   |   |   |   |   |--- text::is beautiful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- colours_x_objects >  9.5000
+|   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::harp <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::fast paced <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 51
+|   |   |   |   |   |   |   |   |   |   |--- text::fast paced >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::harp >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::hopeful with <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::hopeful with >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |   |   |   |   |--- price <= 27.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the night <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- text::the night >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- price >  27.5000
+|   |   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |--- text::warm >  0.5000
+|   |   |   |   |   |   |   |--- text::background is <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::bending <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::tempo and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::and slow >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::tempo and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::bending >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::background is >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::sounds of >  0.5000
+|   |   |   |   |   |   |--- What season does this art piece remind you of?=Summer <= 0.5000
+|   |   |   |   |   |   |   |--- text::where <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::where >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- What season does this art piece remind you of?=Summer >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::and sad >  0.5000
+|   |   |   |   |   |--- text::minor <= 0.5000
+|   |   |   |   |   |   |--- text::music <= 0.5000
+|   |   |   |   |   |   |   |--- text::sunset <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::low rhythm <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::stale <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::stale >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::low rhythm >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::sunset >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::music >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::minor >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::happy >  0.5000
+|   |   |   |   |--- text::parfait <= 0.5000
+|   |   |   |   |   |--- text::more upbeat <= 0.5000
+|   |   |   |   |   |   |--- price <= 475.0000
+|   |   |   |   |   |   |   |--- text::though time <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::want to <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::being able <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::some <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::some >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::being able >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::want to >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::though time >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- price >  475.0000
+|   |   |   |   |   |   |   |--- text::man <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::landscape <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::chaotic and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::wonderous <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- text::wonderous >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::chaotic and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::landscape >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::man >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::more upbeat >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::parfait >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::everything >  0.5000
+|   |   |   |--- text::and light <= 0.5000
+|   |   |   |   |--- objects <= 3.5000
+|   |   |   |   |   |--- text::good <= 0.5000
+|   |   |   |   |   |   |--- text::relaxed <= 0.5000
+|   |   |   |   |   |   |   |--- text::from <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::noise <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::interesting <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::landscape and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::landscape and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::interesting >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::noise >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::from >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::relaxed >  0.5000
+|   |   |   |   |   |   |   |--- text::chirping <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::chirping >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::good >  0.5000
+|   |   |   |   |   |   |--- intensity <= 6.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- intensity >  6.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- objects >  3.5000
+|   |   |   |   |   |--- text::soundtrack is <= 0.5000
+|   |   |   |   |   |   |--- text::moment <= 0.5000
+|   |   |   |   |   |   |   |--- text::of calm <= 1.0000
+|   |   |   |   |   |   |   |   |--- text::slowing <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::slowing >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::of calm >  1.0000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::moment >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::soundtrack is >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::and light >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::rich >  0.5000
+|   |   |--- text::same time <= 0.5000
+|   |   |   |--- class: 1.0
+|   |   |--- text::same time >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::joy >  0.5000
+|   |--- class: 0.0

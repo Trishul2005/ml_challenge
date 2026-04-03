@@ -1,0 +1,157 @@
+|--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |--- text::confused <= 0.5000
+|   |   |--- What season does this art piece remind you of?=Spring <= 0.5000
+|   |   |   |--- text::time and <= 0.5000
+|   |   |   |   |--- text::past <= 0.5000
+|   |   |   |   |   |--- text::cheese slow <= 0.5000
+|   |   |   |   |   |   |--- text::blueberry <= 0.5000
+|   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::soundtrack <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::simple <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::should be <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |   |   |--- text::should be >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::simple >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::soundtrack >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::the colors <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::at first <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::at first >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::the colors >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |   |   |   |--- text::exhausted <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::rhythmic <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::comes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |   |--- text::comes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::rhythmic >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::exhausted >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::blueberry >  0.5000
+|   |   |   |   |   |   |   |--- text::noises of <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::noises of >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::cheese slow >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::past >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::time and >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- What season does this art piece remind you of?=Spring >  0.5000
+|   |   |   |--- text::by piano <= 0.5000
+|   |   |   |   |--- text::if the <= 0.5000
+|   |   |   |   |   |--- text::off key <= 0.5000
+|   |   |   |   |   |   |--- text::landscape <= 0.5000
+|   |   |   |   |   |   |   |--- intensity <= 5.5000
+|   |   |   |   |   |   |   |   |--- text::best <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::cold <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::clocks being <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |   |--- text::clocks being >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::cold >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::best >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- intensity >  5.5000
+|   |   |   |   |   |   |   |   |--- text::the night <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::slow melodic <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::small and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 35
+|   |   |   |   |   |   |   |   |   |   |--- text::small and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::slow melodic >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::the night >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::landscape >  0.5000
+|   |   |   |   |   |   |   |--- text::isolated and <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::isolated and >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::off key >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::if the >  0.5000
+|   |   |   |   |   |--- text::classical <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::classical >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::by piano >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::confused >  0.5000
+|   |   |--- text::create <= 0.5000
+|   |   |   |--- text::sonata <= 0.5000
+|   |   |   |   |--- text::me feel <= 0.5000
+|   |   |   |   |   |--- text::as <= 0.5000
+|   |   |   |   |   |   |--- text::completely <= 0.5000
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count >  0.5000
+|   |   |   |   |   |   |   |   |--- text::minor key <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- price <= 12.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- price >  12.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::but still <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::but still >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::minor key >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::completely >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::as >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::me feel >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::sonata >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::create >  0.5000
+|   |   |   |--- class: 1.0
+|--- What season does this art piece remind you of?=Fall >  0.5000
+|   |--- text::or an <= 0.5000
+|   |   |--- text::starts with <= 0.5000
+|   |   |   |--- text::sad yet <= 0.5000
+|   |   |   |   |--- text::sleepy it <= 0.5000
+|   |   |   |   |   |--- text::cream cake <= 0.5000
+|   |   |   |   |   |   |--- text::view <= 0.5000
+|   |   |   |   |   |   |   |--- text::peaceful sounding <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::major key <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::emotions <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::salad piano <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 29
+|   |   |   |   |   |   |   |   |   |   |--- text::salad piano >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::emotions >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::is just <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::is just >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::major key >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::peaceful sounding >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::view >  0.5000
+|   |   |   |   |   |   |   |--- text::static <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::static >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::cream cake >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::sleepy it >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::sad yet >  0.5000
+|   |   |   |   |--- text::cream or <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::cream or >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::starts with >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::or an >  0.5000
+|   |   |--- class: 1.0

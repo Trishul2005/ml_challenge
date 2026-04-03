@@ -1,0 +1,226 @@
+|--- What season does this art piece remind you of?=Summer <= 0.5000
+|   |--- text::clocks <= 0.5000
+|   |   |--- text::smoothie <= 0.5000
+|   |   |   |--- text::the sky <= 0.5000
+|   |   |   |   |--- text::salad <= 0.5000
+|   |   |   |   |   |--- text::upbeat <= 0.5000
+|   |   |   |   |   |   |--- text::and little <= 0.5000
+|   |   |   |   |   |   |   |--- text::of time <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::awe <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Living room <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::everything <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 33
+|   |   |   |   |   |   |   |   |   |   |--- text::everything >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Living room >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::very <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |   |--- text::very >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::awe >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::of time >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::and little >  0.5000
+|   |   |   |   |   |   |   |--- text::reflections <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::reflections >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::upbeat >  0.5000
+|   |   |   |   |   |   |--- text::very <= 0.5000
+|   |   |   |   |   |   |   |--- text::if <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::pizza an <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::pizza an >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::if >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::very >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::salad >  0.5000
+|   |   |   |   |   |--- text::so many <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::so many >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::the sky >  0.5000
+|   |   |   |   |--- text::would be <= 0.5000
+|   |   |   |   |   |--- text::with <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::with >  0.5000
+|   |   |   |   |   |   |--- text::you <= 0.5000
+|   |   |   |   |   |   |   |--- text::is moving <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::is moving >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::you >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::would be >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::smoothie >  0.5000
+|   |   |   |--- This art piece makes me feel calm. <= 3.5000
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- This art piece makes me feel calm. >  3.5000
+|   |   |   |   |--- price <= 142.5000
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- price >  142.5000
+|   |   |   |   |   |--- text::start off <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::start off >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |--- text::clocks >  0.5000
+|   |   |--- class: 2.0
+|--- What season does this art piece remind you of?=Summer >  0.5000
+|   |--- text::droopy <= 0.5000
+|   |   |--- This art piece makes me feel sombre. <= 1.5000
+|   |   |   |--- text::feel solemn <= 0.5000
+|   |   |   |   |--- objects <= 2.5000
+|   |   |   |   |   |--- text::houses <= 0.5000
+|   |   |   |   |   |   |--- text::night <= 0.5000
+|   |   |   |   |   |   |   |--- text::orchestra <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::it reminds <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- colours <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- colours >  2.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::clair de <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::clair de >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::it reminds >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::orchestra >  0.5000
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count <= 2.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count >  2.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::night >  0.5000
+|   |   |   |   |   |   |   |--- text::maybe <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::maybe >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::houses >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- objects >  2.5000
+|   |   |   |   |   |--- text::piano and <= 0.5000
+|   |   |   |   |   |   |--- text::dreamy and <= 0.5000
+|   |   |   |   |   |   |   |--- text::symphony <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::time <= 1.5000
+|   |   |   |   |   |   |   |   |   |--- text::flutes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::about <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- text::about >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::flutes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::time >  1.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::symphony >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::dreamy and >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::piano and >  0.5000
+|   |   |   |   |   |   |--- text::very <= 0.5000
+|   |   |   |   |   |   |   |--- text::happy piano <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::happy piano >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::very >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::feel solemn >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- This art piece makes me feel sombre. >  1.5000
+|   |   |   |--- text::birds chirping <= 0.5000
+|   |   |   |   |--- This art piece makes me feel sombre. <= 3.5000
+|   |   |   |   |   |--- objects <= 1.5000
+|   |   |   |   |   |   |--- text::the dried <= 0.5000
+|   |   |   |   |   |   |   |--- text::salad very <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::of <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity <= 4.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- intensity >  4.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::sweet <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::sweet >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::of >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::salad very >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::the dried >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- objects >  1.5000
+|   |   |   |   |   |   |--- text::feel little <= 0.5000
+|   |   |   |   |   |   |   |--- text::how <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::calm pizza <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::go fast <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::uneasy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 33
+|   |   |   |   |   |   |   |   |   |   |--- text::uneasy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::go fast >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::calm pizza >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::how >  0.5000
+|   |   |   |   |   |   |   |   |--- text::by the <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- objects <= 5.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- objects >  5.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the starry <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::the starry >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::by the >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::feel little >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- This art piece makes me feel sombre. >  3.5000
+|   |   |   |   |   |--- intensity_x_objects <= 22.5000
+|   |   |   |   |   |   |--- text::sound track <= 0.5000
+|   |   |   |   |   |   |   |--- text::night <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::any <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- intensity_x_colours <= 10.0000
+|   |   |   |   |   |   |   |   |   |   |--- colours <= 3.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- colours >  3.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- intensity_x_colours >  10.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::sandwich slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::sandwich slow >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::any >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::light <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::light >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::night >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::sound track >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- intensity_x_objects >  22.5000
+|   |   |   |   |   |   |--- text::feel pretty <= 0.5000
+|   |   |   |   |   |   |   |--- text::express <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::white <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and awe <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 67.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  67.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::and awe >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::white >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::express >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::feel pretty >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::birds chirping >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::droopy >  0.5000
+|   |   |--- class: 2.0

@@ -1,0 +1,154 @@
+|--- text::anxious <= 0.5000
+|   |--- text::pleasant <= 0.5000
+|   |   |--- text::and sad <= 0.5000
+|   |   |   |--- text::town <= 0.5000
+|   |   |   |   |--- text::eerie <= 0.5000
+|   |   |   |   |   |--- text::light <= 0.5000
+|   |   |   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |   |   |--- text::of wonder <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::blueberry smoothie <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::continuous <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::bit <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
+|   |   |   |   |   |   |   |   |   |   |--- text::bit >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- text::continuous >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::this painting <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::this painting >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::blueberry smoothie >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::of wonder >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 2.5000
+|   |   |   |   |   |   |   |   |--- text::chaotic <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::definitely something <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 31
+|   |   |   |   |   |   |   |   |   |--- text::definitely something >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::chaotic >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  2.5000
+|   |   |   |   |   |   |   |   |--- text::harmony <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::ever <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel calm. <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel calm. >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |--- text::ever >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::sombre <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::sombre >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::harmony >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::light >  0.5000
+|   |   |   |   |   |   |--- text::crisp <= 0.5000
+|   |   |   |   |   |   |   |--- text::melodious <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::hot chocolate <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and the <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::artwork <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- text::artwork >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::and the >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the notes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::the notes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::hot chocolate >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::melodious >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::crisp >  0.5000
+|   |   |   |   |   |   |   |--- text::piece <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::and full <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::and full >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::piece >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::eerie >  0.5000
+|   |   |   |   |   |--- text::gives <= 0.5000
+|   |   |   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |   |   |--- text::noise <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::noise >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |   |   |--- text::will <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::dream and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::the <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::the >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::is so <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::is so >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::dream and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::will >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::gives >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::town >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::and sad >  0.5000
+|   |   |   |--- If you could view this art in person, who would you want to view it with?=By yourself <= 0.5000
+|   |   |   |   |--- text::soup <= 0.5000
+|   |   |   |   |   |--- text::are very <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::are very >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::soup >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- If you could view this art in person, who would you want to view it with?=By yourself >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |--- text::pleasant >  0.5000
+|   |   |--- text::glass of <= 0.5000
+|   |   |   |--- text::setting <= 0.5000
+|   |   |   |   |--- text::sleepy <= 0.5000
+|   |   |   |   |   |--- intensity <= 6.5000
+|   |   |   |   |   |   |--- colours <= 2.0000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- colours >  2.0000
+|   |   |   |   |   |   |   |--- text::feel serene <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::feel serene >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- intensity >  6.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::sleepy >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::setting >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |--- text::glass of >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::anxious >  0.5000
+|   |--- text::excited <= 0.5000
+|   |   |--- text::feel anxious <= 0.5000
+|   |   |   |--- text::silence <= 0.5000
+|   |   |   |   |--- price <= 35.0000
+|   |   |   |   |   |--- text::taste <= 0.5000
+|   |   |   |   |   |   |--- This art piece makes me feel sombre. <= 4.5000
+|   |   |   |   |   |   |   |--- text::ambient piece <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::ambient piece >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- This art piece makes me feel sombre. >  4.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::taste >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- price >  35.0000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::silence >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::feel anxious >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::excited >  0.5000
+|   |   |--- class: 1.0

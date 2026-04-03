@@ -1,0 +1,118 @@
+|--- text::desert <= 0.5000
+|   |--- text::if time <= 0.5000
+|   |   |--- text::like time <= 0.5000
+|   |   |   |--- text::salad the <= 0.5000
+|   |   |   |   |--- text::major <= 0.5000
+|   |   |   |   |   |--- log_price <= 3.9786
+|   |   |   |   |   |   |--- text::sleeping <= 0.5000
+|   |   |   |   |   |   |   |--- text::much <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::with no <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- intensity_missing <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |   |   |   |   |--- intensity_missing >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours_missing <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- colours_missing >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- text::with no >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::much >  0.5000
+|   |   |   |   |   |   |   |   |--- text::and despair <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::moment <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cool <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::cool >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::moment >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::and despair >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::sleeping >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- log_price >  3.9786
+|   |   |   |   |   |   |--- text::stars <= 0.5000
+|   |   |   |   |   |   |   |--- text::in awe <= 0.5000
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Summer <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::green <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- colours >  3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |--- text::green >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::just <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::just >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Summer >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::empty <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::goes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |   |--- text::goes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::empty >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::in awe >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::stars >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::major >  0.5000
+|   |   |   |   |   |--- text::acceptance <= 0.5000
+|   |   |   |   |   |   |--- text::fall asleep <= 0.5000
+|   |   |   |   |   |   |   |--- text::debussy's <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::all high <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::wonderful <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::it makes <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::it makes >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::wonderful >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::all high >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::happy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::debussy's >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::fall asleep >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::acceptance >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::salad the >  0.5000
+|   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Coworkers/Classmates <= 0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Coworkers/Classmates >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::like time >  0.5000
+|   |   |   |--- text::emotions <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::emotions >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |--- text::if time >  0.5000
+|   |   |--- text::note <= 0.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::note >  0.5000
+|   |   |   |--- class: 0.0
+|--- text::desert >  0.5000
+|   |--- text::clocks <= 0.5000
+|   |   |--- text::beat <= 0.5000
+|   |   |   |--- text::has been <= 0.5000
+|   |   |   |   |--- text::the time <= 0.5000
+|   |   |   |   |   |--- text::rushing <= 0.5000
+|   |   |   |   |   |   |--- text::custard <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::custard >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::rushing >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::the time >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::has been >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::beat >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::clocks >  0.5000
+|   |   |--- class: 2.0

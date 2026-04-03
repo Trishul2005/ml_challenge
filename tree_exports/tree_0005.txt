@@ -1,0 +1,184 @@
+|--- This art piece makes me feel uneasy. <= 2.5000
+|   |--- text::awe <= 0.5000
+|   |   |--- text::chirping <= 0.5000
+|   |   |   |--- text::time chocolate <= 0.5000
+|   |   |   |   |--- text::night sky <= 0.5000
+|   |   |   |   |   |--- text::of wind <= 0.5000
+|   |   |   |   |   |   |--- text::the sky <= 0.5000
+|   |   |   |   |   |   |   |--- text::beauty <= 0.5000
+|   |   |   |   |   |   |   |   |--- intensity_x_objects <= 11.0000
+|   |   |   |   |   |   |   |   |   |--- text::calm and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
+|   |   |   |   |   |   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::calm and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 1.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  1.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- intensity_x_objects >  11.0000
+|   |   |   |   |   |   |   |   |   |--- text::and bit <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity <= 4.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 18
+|   |   |   |   |   |   |   |   |   |   |--- intensity >  4.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 57
+|   |   |   |   |   |   |   |   |   |--- text::and bit >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and experimental <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::and experimental >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::beauty >  0.5000
+|   |   |   |   |   |   |   |   |--- text::talking <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::things and <= 1.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::things and >  1.0000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::talking >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::the sky >  0.5000
+|   |   |   |   |   |   |   |--- text::was food <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::and peaceful <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::and peaceful >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::was food >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::of wind >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::night sky >  0.5000
+|   |   |   |   |   |--- text::bad <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::bad >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::time chocolate >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::chirping >  0.5000
+|   |   |   |--- text::birds <= 0.5000
+|   |   |   |   |--- objects <= 3.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- objects >  3.5000
+|   |   |   |   |   |--- text::me this <= 0.5000
+|   |   |   |   |   |   |--- text::memory <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::memory >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::me this >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::birds >  0.5000
+|   |   |   |   |--- text::ink <= 0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::ink >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |--- text::awe >  0.5000
+|   |   |--- text::it <= 1.5000
+|   |   |   |--- class: 1.0
+|   |   |--- text::it >  1.5000
+|   |   |   |--- colours <= 5.5000
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- colours >  5.5000
+|   |   |   |   |--- class: 0.0
+|--- This art piece makes me feel uneasy. >  2.5000
+|   |--- text::to <= 0.5000
+|   |   |--- text::would start <= 0.5000
+|   |   |   |--- text::of time <= 0.5000
+|   |   |   |   |--- text::blueberry <= 0.5000
+|   |   |   |   |   |--- text::and sometimes <= 0.5000
+|   |   |   |   |   |   |--- text::classical piano <= 0.5000
+|   |   |   |   |   |   |   |--- text::this <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::me feel <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::blueberries <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::calm and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |   |   |   |   |   |--- text::calm and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- text::blueberries >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::me feel >  0.5000
+|   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 22.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::makes <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- text::makes >  1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  22.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Office <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Office >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- text::this >  0.5000
+|   |   |   |   |   |   |   |   |--- text::story <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::some <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::empty <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::empty >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::some >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::is inevitable <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::is inevitable >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::story >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::painting this <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::painting this >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::classical piano >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::and sometimes >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::blueberry >  0.5000
+|   |   |   |   |   |--- intensity <= 8.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- intensity >  8.5000
+|   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::of time >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::would start >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::to >  0.5000
+|   |   |--- text::restrained <= 0.5000
+|   |   |   |--- text::would be <= 1.5000
+|   |   |   |   |--- text::cosmic <= 0.5000
+|   |   |   |   |   |--- text::me the <= 0.5000
+|   |   |   |   |   |   |--- text::spicy <= 0.5000
+|   |   |   |   |   |   |   |--- text::louder <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::calm to <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::bird sounds <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::waste <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::waste >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::bird sounds >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::calm to >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::louder >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::spicy >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::me the >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::cosmic >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::would be >  1.5000
+|   |   |   |   |--- objects <= 3.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- objects >  3.5000
+|   |   |   |   |   |--- text::hot <= 0.5000
+|   |   |   |   |   |   |--- text::with <= 0.5000
+|   |   |   |   |   |   |   |--- intensity_x_colours <= 19.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- intensity_x_colours >  19.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::with >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::hot >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |--- text::restrained >  0.5000
+|   |   |   |--- class: 1.0

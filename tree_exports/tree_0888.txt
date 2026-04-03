@@ -1,0 +1,127 @@
+|--- text::windy <= 0.5000
+|   |--- text::noise <= 0.5000
+|   |   |--- text::birds chirping <= 0.5000
+|   |   |   |--- text::blueberry <= 0.5000
+|   |   |   |   |--- text::relaxed <= 0.5000
+|   |   |   |   |   |--- text::low <= 0.5000
+|   |   |   |   |   |   |--- text::the time <= 0.5000
+|   |   |   |   |   |   |   |--- text::the sky <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::empty <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 49
+|   |   |   |   |   |   |   |   |   |   |--- text::the >  1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 33
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::nature <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 39
+|   |   |   |   |   |   |   |   |   |   |--- text::nature >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- text::empty >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::the sky >  0.5000
+|   |   |   |   |   |   |   |   |--- text::background and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::still <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::feels <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::feels >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- text::still >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::background and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::the time >  0.5000
+|   |   |   |   |   |   |   |--- text::to time <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::me question <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::me wonder <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::and <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::and >  1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::me wonder >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::me question >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::to time >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::low >  0.5000
+|   |   |   |   |   |   |--- colours_x_objects <= 10.5000
+|   |   |   |   |   |   |   |--- text::the scene <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::and slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::and slow >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::the scene >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- colours_x_objects >  10.5000
+|   |   |   |   |   |   |   |--- This art piece makes me feel sombre. <= 1.5000
+|   |   |   |   |   |   |   |   |--- text::vast <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::vast >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- This art piece makes me feel sombre. >  1.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::relaxed >  0.5000
+|   |   |   |   |   |--- text::hear <= 0.5000
+|   |   |   |   |   |   |--- text::point <= 0.5000
+|   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 2.5000
+|   |   |   |   |   |   |   |   |--- text::slow piano <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::stress <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::soothing <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- text::soothing >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::stress >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::slow piano >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  2.5000
+|   |   |   |   |   |   |   |   |--- text::where everything <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and the <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::crickets <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- text::crickets >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::and the >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::where everything >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::point >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::hear >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::blueberry >  0.5000
+|   |   |   |   |--- text::upbeat <= 0.5000
+|   |   |   |   |   |--- text::sombre <= 0.5000
+|   |   |   |   |   |   |--- text::will <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::will >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::sombre >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::upbeat >  0.5000
+|   |   |   |   |   |--- text::blueberry pie <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::blueberry pie >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |--- text::birds chirping >  0.5000
+|   |   |   |--- text::maybe with <= 0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- text::maybe with >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::noise >  0.5000
+|   |   |--- text::bugs and <= 0.5000
+|   |   |   |--- This art piece makes me feel uneasy. <= 2.5000
+|   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 1.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  1.5000
+|   |   |   |   |   |--- text::and the <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::and the >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- This art piece makes me feel uneasy. >  2.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::bugs and >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::windy >  0.5000
+|   |--- class: 1.0

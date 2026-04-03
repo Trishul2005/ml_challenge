@@ -1,0 +1,142 @@
+|--- text::and uneasy <= 0.5000
+|   |--- text::salad it <= 0.5000
+|   |   |--- text::being <= 0.5000
+|   |   |   |--- text::birds <= 0.5000
+|   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |--- text::nature <= 0.5000
+|   |   |   |   |   |   |--- text::uneasy and <= 0.5000
+|   |   |   |   |   |   |   |--- text::lonely <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::nostalgic <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- This art piece makes me feel calm. <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::pancake <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |   |--- text::pancake >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- This art piece makes me feel calm. >  3.5000
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel sombre. <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel sombre. >  1.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 40
+|   |   |   |   |   |   |   |   |--- text::nostalgic >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and imagination <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::nostalgic slow <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::nostalgic slow >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::and imagination >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::lonely >  0.5000
+|   |   |   |   |   |   |   |   |--- text::slow quiet <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::date <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::tone <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::tone >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::date >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::slow quiet >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::uneasy and >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::nature >  0.5000
+|   |   |   |   |   |   |--- text::like wind <= 0.5000
+|   |   |   |   |   |   |   |--- text::little <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::seems to <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::interrupted by <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::calm as <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- text::calm as >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::interrupted by >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::seems to >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::little >  0.5000
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::like wind >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |--- text::weather <= 0.5000
+|   |   |   |   |   |   |--- text::gentle <= 1.5000
+|   |   |   |   |   |   |   |--- text::music is <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::bursts of <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::fills <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::soaring <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 15
+|   |   |   |   |   |   |   |   |   |   |--- text::soaring >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::fills >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::bursts of >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::music is >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::gentle >  1.5000
+|   |   |   |   |   |   |   |--- text::each <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::each >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::weather >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::birds >  0.5000
+|   |   |   |   |--- text::of clicking <= 0.5000
+|   |   |   |   |   |--- intensity <= 7.5000
+|   |   |   |   |   |   |--- text::flowing water <= 0.5000
+|   |   |   |   |   |   |   |--- text::peaceful it <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::spaghetti <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::spaghetti >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::peaceful it >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::flowing water >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- intensity >  7.5000
+|   |   |   |   |   |   |--- text::and <= 0.5000
+|   |   |   |   |   |   |   |--- text::pizza <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::pizza >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::and >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::of clicking >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |--- text::being >  0.5000
+|   |   |   |--- text::night it <= 0.5000
+|   |   |   |   |--- This art piece makes me feel uneasy. <= 2.5000
+|   |   |   |   |   |--- text::this painting <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::this painting >  0.5000
+|   |   |   |   |   |   |--- This art piece makes me feel uneasy._missing <= 0.5000
+|   |   |   |   |   |   |   |--- text::which is <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::which is >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- This art piece makes me feel uneasy._missing >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- This art piece makes me feel uneasy. >  2.5000
+|   |   |   |   |   |--- text::that <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::that >  0.5000
+|   |   |   |   |   |   |--- text::to the <= 0.5000
+|   |   |   |   |   |   |   |--- text::quiet but <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::quiet but >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::to the >  0.5000
+|   |   |   |   |   |   |   |--- text::it seem <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::it seem >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::night it >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::salad it >  0.5000
+|   |   |--- class: 0.0
+|--- text::and uneasy >  0.5000
+|   |--- text::if it <= 0.5000
+|   |   |--- class: 2.0
+|   |--- text::if it >  0.5000
+|   |   |--- class: 2.0

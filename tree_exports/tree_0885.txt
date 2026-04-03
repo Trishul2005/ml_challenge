@@ -1,0 +1,142 @@
+|--- text::of movement <= 0.5000
+|   |--- text::warm <= 0.5000
+|   |   |--- text::eerie <= 0.5000
+|   |   |   |--- text::feel uneasy <= 0.5000
+|   |   |   |   |--- text::ticking <= 0.5000
+|   |   |   |   |   |--- This art piece makes me feel uneasy. <= 2.5000
+|   |   |   |   |   |   |--- text::scenery <= 0.5000
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Spring <= 0.5000
+|   |   |   |   |   |   |   |   |--- colours <= 1.5000
+|   |   |   |   |   |   |   |   |   |--- objects <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::summer <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::summer >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- objects >  2.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- colours >  1.5000
+|   |   |   |   |   |   |   |   |   |--- text::drum <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::always be <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 28
+|   |   |   |   |   |   |   |   |   |   |--- text::always be >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::drum >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Spring >  0.5000
+|   |   |   |   |   |   |   |   |--- text::as if <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::jazz <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::sand <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 36
+|   |   |   |   |   |   |   |   |   |   |--- text::sand >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::jazz >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours <= 4.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- colours >  4.0000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::as if >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::uplifting with <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::feels serene <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::feels serene >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::uplifting with >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::scenery >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- This art piece makes me feel uneasy. >  2.5000
+|   |   |   |   |   |   |--- text::tastes <= 0.5000
+|   |   |   |   |   |   |   |--- text::passing <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::caesar salad <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::cherry <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cream <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
+|   |   |   |   |   |   |   |   |   |   |--- text::cream >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- text::cherry >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::caesar salad >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::passing >  0.5000
+|   |   |   |   |   |   |   |   |--- text::subtle <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::subtle >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::tastes >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::ticking >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::feel uneasy >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::eerie >  0.5000
+|   |   |   |--- text::in some <= 0.5000
+|   |   |   |   |--- text::it <= 1.5000
+|   |   |   |   |   |--- text::take <= 0.5000
+|   |   |   |   |   |   |--- text::is <= 0.5000
+|   |   |   |   |   |   |   |--- text::out of <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::out of >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::is >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::take >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::it >  1.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::in some >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::warm >  0.5000
+|   |   |--- text::me sense <= 0.5000
+|   |   |   |--- text::flowing music <= 0.5000
+|   |   |   |   |--- colours_x_objects <= 19.0000
+|   |   |   |   |   |--- text::space <= 0.5000
+|   |   |   |   |   |   |--- text::atmosphere <= 0.5000
+|   |   |   |   |   |   |   |--- text::and cello <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::rich <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::soothing <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::exhausted <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- text::exhausted >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::soothing >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::rich >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::and cello >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::atmosphere >  0.5000
+|   |   |   |   |   |   |   |--- text::tinged <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::tinged >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::space >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- colours_x_objects >  19.0000
+|   |   |   |   |   |--- text::also comforting <= 0.5000
+|   |   |   |   |   |   |--- text::distorted <= 0.5000
+|   |   |   |   |   |   |   |--- text::calm serene <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::time <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the sun <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::the sun >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::and >  2.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::time >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::instead <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::instead >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::calm serene >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::distorted >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::also comforting >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::flowing music >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::me sense >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::of movement >  0.5000
+|   |--- class: 1.0

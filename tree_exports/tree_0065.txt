@@ -1,0 +1,130 @@
+|--- text::depressing <= 0.5000
+|   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |--- What season does this art piece remind you of?__count <= 1.5000
+|   |   |   |--- text::clock <= 0.5000
+|   |   |   |   |--- text::the image <= 0.5000
+|   |   |   |   |   |--- text::birds <= 0.5000
+|   |   |   |   |   |   |--- text::the night <= 0.5000
+|   |   |   |   |   |   |   |--- text::slightly <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::it <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::to <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 26
+|   |   |   |   |   |   |   |   |   |   |--- text::to >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=Family members >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::jazz <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- text::jazz >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- text::it >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::with sense <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- text::with sense >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::slightly >  0.5000
+|   |   |   |   |   |   |   |   |--- text::it feel <= 1.0000
+|   |   |   |   |   |   |   |   |   |--- text::restless <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::tea <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::tea >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::restless >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::it feel >  1.0000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::the night >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::birds >  0.5000
+|   |   |   |   |   |   |--- text::enjoy <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::enjoy >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::the image >  0.5000
+|   |   |   |   |   |--- text::goose <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::goose >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::clock >  0.5000
+|   |   |   |   |--- text::that look <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::that look >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |--- What season does this art piece remind you of?__count >  1.5000
+|   |   |   |--- text::birds chirping <= 0.5000
+|   |   |   |   |--- text::instruments in <= 0.5000
+|   |   |   |   |   |--- text::smoothie <= 0.5000
+|   |   |   |   |   |   |--- text::eye <= 0.5000
+|   |   |   |   |   |   |   |--- text::sort of <= 1.5000
+|   |   |   |   |   |   |   |   |--- text::me about <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and imagination <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::bit of <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 27
+|   |   |   |   |   |   |   |   |   |   |--- text::bit of >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::and imagination >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::me about >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::sort of >  1.5000
+|   |   |   |   |   |   |   |   |--- text::is going <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::is going >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::eye >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::smoothie >  0.5000
+|   |   |   |   |   |   |--- text::hope <= 0.5000
+|   |   |   |   |   |   |   |--- text::also <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::and slightly <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::and slightly >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::also >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::hope >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::instruments in >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::birds chirping >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |--- text::pace <= 0.5000
+|   |   |   |--- text::rotten <= 0.5000
+|   |   |   |   |--- text::based on <= 0.5000
+|   |   |   |   |   |--- text::is something <= 0.5000
+|   |   |   |   |   |   |--- text::sad and <= 0.5000
+|   |   |   |   |   |   |   |--- text::cannot <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::over <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::clocks and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::violin with <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |   |   |--- text::violin with >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::clocks and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::over >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::cannot >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::sad and >  0.5000
+|   |   |   |   |   |   |   |--- text::with sort <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::with sort >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::is something >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::based on >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::rotten >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::pace >  0.5000
+|   |   |   |--- text::in warm <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::in warm >  0.5000
+|   |   |   |   |--- class: 1.0
+|--- text::depressing >  0.5000
+|   |--- class: 2.0

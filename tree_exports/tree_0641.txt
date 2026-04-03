@@ -1,0 +1,148 @@
+|--- text::think about <= 0.5000
+|   |--- text::uneasy <= 0.5000
+|   |   |--- text::and happy <= 0.5000
+|   |   |   |--- text::sombre <= 0.5000
+|   |   |   |   |--- text::feel sad <= 0.5000
+|   |   |   |   |   |--- text::awe <= 0.5000
+|   |   |   |   |   |   |--- text::and relaxed <= 0.5000
+|   |   |   |   |   |   |   |--- text::how time <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::cold <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::upbeat <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects <= 10.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |   |--- intensity_x_objects >  10.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 56
+|   |   |   |   |   |   |   |   |   |--- text::upbeat >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::type of <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |   |--- text::type of >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::cold >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::but it <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::water it <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::water it >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::but it >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::how time >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::and relaxed >  0.5000
+|   |   |   |   |   |   |   |--- text::stillness <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::in <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::that <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- text::that >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::in >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::almost <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- colours_x_objects <= 25.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- colours_x_objects >  25.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::almost >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::stillness >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::awe >  0.5000
+|   |   |   |   |   |   |--- text::happy <= 1.0000
+|   |   |   |   |   |   |   |--- text::one of <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::well <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::well >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::one of >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::happy >  1.0000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::feel sad >  0.5000
+|   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |--- text::faint <= 0.5000
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count <= 1.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- What season does this art piece remind you of?__count >  1.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::faint >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::sombre >  0.5000
+|   |   |   |   |--- text::to life <= 0.5000
+|   |   |   |   |   |--- text::tone <= 0.5000
+|   |   |   |   |   |   |--- text::else <= 0.5000
+|   |   |   |   |   |   |   |--- text::classical <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::memory <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::or <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::with solemn <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::with solemn >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::or >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::memory >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::classical >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::else >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::tone >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::to life >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::and happy >  0.5000
+|   |   |   |--- intensity_x_objects <= 17.5000
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- intensity_x_objects >  17.5000
+|   |   |   |   |--- text::blue colors <= 0.5000
+|   |   |   |   |   |--- text::feel content <= 0.5000
+|   |   |   |   |   |   |--- text::too sweet <= 0.5000
+|   |   |   |   |   |   |   |--- text::tomatoes <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::tomatoes >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::too sweet >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::feel content >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::blue colors >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |--- text::uneasy >  0.5000
+|   |   |--- text::and the <= 0.5000
+|   |   |   |--- text::beat <= 0.5000
+|   |   |   |   |--- text::also <= 0.5000
+|   |   |   |   |   |--- text::calm <= 0.5000
+|   |   |   |   |   |   |--- intensity <= 8.5000
+|   |   |   |   |   |   |   |--- text::emotions <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::emotions >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- intensity >  8.5000
+|   |   |   |   |   |   |   |--- text::me <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::me >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::calm >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::also >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::beat >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::and the >  0.5000
+|   |   |   |--- class: 2.0
+|--- text::think about >  0.5000
+|   |--- text::it would <= 0.5000
+|   |   |--- text::introspective and <= 0.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::introspective and >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::it would >  0.5000
+|   |   |--- text::the colors <= 0.5000
+|   |   |   |--- text::gets <= 0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- text::gets >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::the colors >  0.5000
+|   |   |   |--- class: 0.0

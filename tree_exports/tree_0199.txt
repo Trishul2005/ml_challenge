@@ -1,0 +1,133 @@
+|--- text::feel happy <= 0.5000
+|   |--- text::depressing <= 0.5000
+|   |   |--- text::night <= 0.5000
+|   |   |   |--- text::of my <= 0.5000
+|   |   |   |   |--- text::spring <= 0.5000
+|   |   |   |   |   |--- text::painting <= 0.5000
+|   |   |   |   |   |   |--- text::happy <= 0.5000
+|   |   |   |   |   |   |   |--- text::silence <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::blue <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::running out <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::distorted <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 46
+|   |   |   |   |   |   |   |   |   |   |--- text::distorted >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- text::running out >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::see <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::see >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::blue >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and gives <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::and gives >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::silence >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::happy >  0.5000
+|   |   |   |   |   |   |   |--- text::slow melodic <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::dancing <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::upbeat and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::think <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 23
+|   |   |   |   |   |   |   |   |   |   |--- text::think >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::upbeat and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::are <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- text::are >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::dancing >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::ice <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::ice >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::slow melodic >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::painting >  0.5000
+|   |   |   |   |   |   |--- text::birds <= 0.5000
+|   |   |   |   |   |   |   |--- text::below <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::gentle <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::garden <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::louder <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- text::louder >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::garden >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::gentle >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::soundtrack <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::ice <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::ice >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::soundtrack >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::be <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |   |--- text::be >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::below >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::birds >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::spring >  0.5000
+|   |   |   |   |   |--- text::making me <= 0.5000
+|   |   |   |   |   |   |--- text::vivaldi spring <= 0.5000
+|   |   |   |   |   |   |   |--- text::melodious sound <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::melodious sound >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::vivaldi spring >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::making me >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::of my >  0.5000
+|   |   |   |   |--- text::is moving <= 0.5000
+|   |   |   |   |   |--- text::sounds <= 0.5000
+|   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |   |--- text::that <= 0.5000
+|   |   |   |   |   |   |   |   |--- This art piece makes me feel uneasy. <= 3.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- This art piece makes me feel uneasy. >  3.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::that >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::sounds >  0.5000
+|   |   |   |   |   |   |--- text::it would <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::it would >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::is moving >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |--- text::night >  0.5000
+|   |   |   |--- text::form of <= 0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |   |--- text::form of >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |--- text::depressing >  0.5000
+|   |   |--- text::of the <= 1.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::of the >  1.5000
+|   |   |   |--- class: 1.0
+|--- text::feel happy >  0.5000
+|   |--- text::caeser <= 0.5000
+|   |   |--- text::or violin <= 0.5000
+|   |   |   |--- text::be pizza <= 0.5000
+|   |   |   |   |--- text::nighttime <= 0.5000
+|   |   |   |   |   |--- text::watermelon <= 0.5000
+|   |   |   |   |   |   |--- text::as we <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::as we >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::watermelon >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::nighttime >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::be pizza >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::or violin >  0.5000
+|   |   |   |--- class: 1.0
+|   |--- text::caeser >  0.5000
+|   |   |--- class: 1.0

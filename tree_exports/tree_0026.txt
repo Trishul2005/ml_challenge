@@ -1,0 +1,145 @@
+|--- text::birds chirping <= 0.5000
+|   |--- text::uneasy <= 0.5000
+|   |   |--- text::with light <= 0.5000
+|   |   |   |--- text::beauty <= 0.5000
+|   |   |   |   |--- text::joyful <= 0.5000
+|   |   |   |   |   |--- This art piece makes me feel calm. <= 3.5000
+|   |   |   |   |   |   |--- text::emotional <= 0.5000
+|   |   |   |   |   |   |   |--- colours <= 2.5000
+|   |   |   |   |   |   |   |   |--- text::like time <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::the sounds <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=By yourself <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?=By yourself >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |--- text::the sounds >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::like time >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- colours >  2.5000
+|   |   |   |   |   |   |   |   |--- text::taylor swift <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::berry <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::but not <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 30
+|   |   |   |   |   |   |   |   |   |   |--- text::but not >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- text::berry >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::taylor swift >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::emotional >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- This art piece makes me feel calm. >  3.5000
+|   |   |   |   |   |   |--- text::makes it <= 0.5000
+|   |   |   |   |   |   |   |--- text::lethargic <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::green <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::no <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::animals <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 53
+|   |   |   |   |   |   |   |   |   |   |--- text::animals >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::no >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::home <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- text::home >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::green >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::lethargic >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::makes it >  0.5000
+|   |   |   |   |   |   |   |--- text::detuned <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::detuned >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::joyful >  0.5000
+|   |   |   |   |   |--- text::sandwich it <= 0.5000
+|   |   |   |   |   |   |--- text::talks about <= 0.5000
+|   |   |   |   |   |   |   |--- text::this painting <= 0.5000
+|   |   |   |   |   |   |   |   |--- intensity_x_objects <= 14.0000
+|   |   |   |   |   |   |   |   |   |--- text::joyful and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::its <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- text::its >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::joyful and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- intensity_x_objects >  14.0000
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  1.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::this painting >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::talks about >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::sandwich it >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::beauty >  0.5000
+|   |   |   |   |--- text::of <= 5.5000
+|   |   |   |   |   |--- text::be ice <= 0.5000
+|   |   |   |   |   |   |--- text::and at <= 0.5000
+|   |   |   |   |   |   |   |--- text::fresh salad <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::like <= 2.5000
+|   |   |   |   |   |   |   |   |   |--- intensity_x_colours <= 8.0000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- intensity_x_colours >  8.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::there is <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::there is >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::like >  2.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::fresh salad >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::and at >  0.5000
+|   |   |   |   |   |   |   |--- text::almost <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::almost >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::be ice >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::of >  5.5000
+|   |   |   |   |   |--- text::and doesn't <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::and doesn't >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |--- text::with light >  0.5000
+|   |   |   |--- text::music featuring <= 0.5000
+|   |   |   |   |--- text::loneliness <= 0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::loneliness >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::music featuring >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::uneasy >  0.5000
+|   |   |--- text::disturbing <= 0.5000
+|   |   |   |--- text::into <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::into >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::disturbing >  0.5000
+|   |   |   |--- class: 1.0
+|--- text::birds chirping >  0.5000
+|   |--- text::start <= 0.5000
+|   |   |--- text::me feel <= 0.5000
+|   |   |   |--- text::acai bowl <= 0.5000
+|   |   |   |   |--- price <= 27.5000
+|   |   |   |   |   |--- What season does this art piece remind you of?__count <= 1.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- What season does this art piece remind you of?__count >  1.5000
+|   |   |   |   |   |   |--- text::peace <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::peace >  0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- price >  27.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::acai bowl >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |--- text::me feel >  0.5000
+|   |   |   |--- text::tranquility and <= 0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- text::tranquility and >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::start >  0.5000
+|   |   |--- class: 0.0

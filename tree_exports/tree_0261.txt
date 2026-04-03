@@ -1,0 +1,118 @@
+|--- text::birds chirping <= 0.5000
+|   |--- text::the melting <= 0.5000
+|   |   |--- text::melted <= 0.5000
+|   |   |   |--- text::moving <= 0.5000
+|   |   |   |   |--- text::creepy <= 0.5000
+|   |   |   |   |   |--- text::passing <= 0.5000
+|   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall <= 0.5000
+|   |   |   |   |   |   |   |--- text::happy and <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::nature <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::dreamy <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::night <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 41
+|   |   |   |   |   |   |   |   |   |   |--- text::night >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- text::dreamy >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::picture <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::picture >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::nature >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::the colours <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::contrast between <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- text::contrast between >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::the colours >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::happy and >  0.5000
+|   |   |   |   |   |   |   |   |--- text::paired with <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::the piano <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::the piano >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::paired with >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- What season does this art piece remind you of?=Fall >  0.5000
+|   |   |   |   |   |   |   |--- text::time is <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::mystery <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::feel sad <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel content. <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel content. >  3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 24
+|   |   |   |   |   |   |   |   |   |--- text::feel sad >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::mystery >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::time is >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::passing >  0.5000
+|   |   |   |   |   |   |--- text::dull <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::dull >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::creepy >  0.5000
+|   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::moving >  0.5000
+|   |   |   |   |--- text::stillness <= 0.5000
+|   |   |   |   |   |--- text::shapes make <= 0.5000
+|   |   |   |   |   |   |--- text::for something <= 0.5000
+|   |   |   |   |   |   |   |--- text::but not <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::refreshing and <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::together <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::also <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::also >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::together >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::refreshing and >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::but not >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::for something >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::shapes make >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::stillness >  0.5000
+|   |   |   |   |   |--- text::voice with <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::voice with >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |--- text::melted >  0.5000
+|   |   |   |--- text::in one <= 0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |   |--- text::in one >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |--- text::the melting >  0.5000
+|   |   |--- text::feels lonely <= 0.5000
+|   |   |   |--- class: 2.0
+|   |   |--- text::feels lonely >  0.5000
+|   |   |   |--- class: 2.0
+|--- text::birds chirping >  0.5000
+|   |--- colours <= 3.5000
+|   |   |--- text::me happy <= 0.5000
+|   |   |   |--- text::me <= 0.5000
+|   |   |   |   |--- text::and wonder <= 0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::and wonder >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::me >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |--- text::me happy >  0.5000
+|   |   |   |--- class: 0.0
+|   |--- colours >  3.5000
+|   |   |--- text::of soup <= 0.5000
+|   |   |   |--- text::it <= 0.5000
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- text::it >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::of soup >  0.5000
+|   |   |   |--- class: 0.0

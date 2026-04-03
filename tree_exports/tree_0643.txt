@@ -1,0 +1,142 @@
+|--- text::clock <= 0.5000
+|   |--- text::time <= 0.5000
+|   |   |--- text::weird <= 0.5000
+|   |   |   |--- text::eerie <= 0.5000
+|   |   |   |   |--- text::odd <= 0.5000
+|   |   |   |   |   |--- text::sleepy <= 0.5000
+|   |   |   |   |   |   |--- text::ice cream <= 0.5000
+|   |   |   |   |   |   |   |--- objects <= 2.5000
+|   |   |   |   |   |   |   |   |--- text::dizzy <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::it could <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?__count >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |   |--- text::it could >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::dizzy >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- objects >  2.5000
+|   |   |   |   |   |   |   |   |--- text::feel uneasy <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::night sky <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 45
+|   |   |   |   |   |   |   |   |   |   |--- text::night sky >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::pleasant <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 25
+|   |   |   |   |   |   |   |   |   |   |--- text::pleasant >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::feel uneasy >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::is sad <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::is sad >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::ice cream >  0.5000
+|   |   |   |   |   |   |   |--- text::edges <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::that evokes <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::flowers <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::hot <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 13
+|   |   |   |   |   |   |   |   |   |   |--- text::hot >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::flowers >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::that evokes >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::edges >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::sleepy >  0.5000
+|   |   |   |   |   |   |--- text::caesar <= 0.5000
+|   |   |   |   |   |   |   |--- intensity <= 2.5000
+|   |   |   |   |   |   |   |   |--- text::or something <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::or something >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- intensity >  2.5000
+|   |   |   |   |   |   |   |   |--- text::warm <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::warm >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::caesar >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::odd >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::eerie >  0.5000
+|   |   |   |   |--- text::soft light <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::soft light >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::weird >  0.5000
+|   |   |   |--- text::kind of <= 0.5000
+|   |   |   |   |--- text::as <= 0.5000
+|   |   |   |   |   |--- text::it would <= 0.5000
+|   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 2.0000
+|   |   |   |   |   |   |   |--- text::that <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::makes me <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- What season does this art piece remind you of?=Winter >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::makes me >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::that >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  2.0000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::it would >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::as >  0.5000
+|   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 3.5000
+|   |   |   |   |   |   |--- text::lyrics <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::lyrics >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  3.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |--- text::kind of >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |--- text::time >  0.5000
+|   |   |--- text::single <= 0.5000
+|   |   |   |--- text::night <= 0.5000
+|   |   |   |   |--- text::something upbeat <= 0.5000
+|   |   |   |   |   |--- text::calm and <= 0.5000
+|   |   |   |   |   |   |--- text::your mind <= 0.5000
+|   |   |   |   |   |   |   |--- text::also kind <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::the details <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::of depth <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::legato <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 22
+|   |   |   |   |   |   |   |   |   |   |--- text::legato >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::of depth >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |--- text::the details >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::also kind >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::your mind >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::calm and >  0.5000
+|   |   |   |   |   |   |--- text::soft light <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::soft light >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::something upbeat >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::night >  0.5000
+|   |   |   |   |--- text::light <= 1.0000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::light >  1.0000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::single >  0.5000
+|   |   |   |--- text::similar to <= 0.5000
+|   |   |   |   |--- text::the background <= 0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::the background >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::similar to >  0.5000
+|   |   |   |   |--- class: 0.0
+|--- text::clock >  0.5000
+|   |--- class: 2.0

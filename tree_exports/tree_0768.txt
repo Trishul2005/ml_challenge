@@ -1,0 +1,124 @@
+|--- text::chirping <= 0.5000
+|   |--- text::slipping <= 0.5000
+|   |   |--- text::weird <= 0.5000
+|   |   |   |--- text::lazy <= 0.5000
+|   |   |   |   |--- text::strange <= 0.5000
+|   |   |   |   |   |--- text::running out <= 0.5000
+|   |   |   |   |   |   |--- text::sleepy <= 0.5000
+|   |   |   |   |   |   |   |--- text::night sky <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::salad <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::fresh <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel calm. <= 3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 40
+|   |   |   |   |   |   |   |   |   |   |--- This art piece makes me feel calm. >  3.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 48
+|   |   |   |   |   |   |   |   |   |--- text::fresh >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::cool <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- text::cool >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::salad >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::seeing the <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::constant <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::constant >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::seeing the >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::night sky >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::sleepy >  0.5000
+|   |   |   |   |   |   |   |--- text::way calm <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::with guitar <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::slow dramatic <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::peaceful and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- text::peaceful and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::slow dramatic >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::with guitar >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::way calm >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::running out >  0.5000
+|   |   |   |   |   |   |--- text::world where <= 0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::world where >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::strange >  0.5000
+|   |   |   |   |   |--- text::the <= 1.5000
+|   |   |   |   |   |   |--- text::painting makes <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::painting makes >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::the >  1.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::lazy >  0.5000
+|   |   |   |   |--- text::instruments <= 1.0000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::instruments >  1.0000
+|   |   |   |   |   |--- class: 2.0
+|   |   |--- text::weird >  0.5000
+|   |   |   |--- text::upbeat <= 0.5000
+|   |   |   |   |--- text::clocks <= 0.5000
+|   |   |   |   |   |--- text::it <= 0.5000
+|   |   |   |   |   |   |--- text::calm <= 1.0000
+|   |   |   |   |   |   |   |--- text::inspired and <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::and confused <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::this <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::this >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |   |   |--- text::and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::makes me <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |   |--- text::makes me >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::and confused >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::inspired and >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::calm >  1.0000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::it >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::clocks >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::upbeat >  0.5000
+|   |   |   |   |--- class: 0.0
+|   |--- text::slipping >  0.5000
+|   |   |--- class: 2.0
+|--- text::chirping >  0.5000
+|   |--- If you could purchase this painting, which room would you put that painting in?=Dining room <= 0.5000
+|   |   |--- text::attention <= 0.5000
+|   |   |   |--- intensity <= 4.5000
+|   |   |   |   |--- text::cherry <= 0.5000
+|   |   |   |   |   |--- text::flute <= 0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::flute >  0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::cherry >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |--- intensity >  4.5000
+|   |   |   |   |--- text::refreshing <= 0.5000
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bedroom >  0.5000
+|   |   |   |   |   |   |--- text::of nature <= 0.5000
+|   |   |   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::impressionist <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::impressionist >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::of nature >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::refreshing >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |--- text::attention >  0.5000
+|   |   |   |--- class: 0.0
+|   |--- If you could purchase this painting, which room would you put that painting in?=Dining room >  0.5000
+|   |   |--- class: 0.0

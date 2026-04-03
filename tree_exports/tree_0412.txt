@@ -1,0 +1,67 @@
+|--- text::melting clocks <= 0.5000
+|   |--- text::joyful <= 0.5000
+|   |   |--- text::lose <= 0.5000
+|   |   |   |--- text::slipping <= 0.5000
+|   |   |   |   |--- text::clock <= 0.5000
+|   |   |   |   |   |--- text::like time <= 0.5000
+|   |   |   |   |   |   |--- text::out <= 0.5000
+|   |   |   |   |   |   |   |--- text::sad <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::turkey <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::of time <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::the clocks <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 51
+|   |   |   |   |   |   |   |   |   |   |--- text::the clocks >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::of time >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::melody and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- text::melody and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::turkey >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::sad >  0.5000
+|   |   |   |   |   |   |   |   |--- text::many times <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::hazy and <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::of wind <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 20
+|   |   |   |   |   |   |   |   |   |   |--- text::of wind >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::hazy and >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::many times >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::out >  0.5000
+|   |   |   |   |   |   |   |--- text::and for <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::in <= 3.5000
+|   |   |   |   |   |   |   |   |   |--- text::moonlight <= 1.0000
+|   |   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count <= 2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- If you could view this art in person, who would you want to view it with?__count >  2.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- text::moonlight >  1.0000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::in >  3.5000
+|   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::and for >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::like time >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::clock >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::slipping >  0.5000
+|   |   |   |   |--- class: 2.0
+|   |   |--- text::lose >  0.5000
+|   |   |   |--- class: 2.0
+|   |--- text::joyful >  0.5000
+|   |   |--- text::almost <= 0.5000
+|   |   |   |--- text::as if <= 0.5000
+|   |   |   |   |--- text::is the <= 0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::is the >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::as if >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::almost >  0.5000
+|   |   |   |--- class: 0.0
+|--- text::melting clocks >  0.5000
+|   |--- class: 2.0

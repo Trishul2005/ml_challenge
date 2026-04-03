@@ -1,0 +1,151 @@
+|--- text::pie it <= 0.5000
+|   |--- What season does this art piece remind you of?=Spring <= 0.5000
+|   |   |--- text::tired <= 0.5000
+|   |   |   |--- text::me <= 1.5000
+|   |   |   |   |--- text::wonder <= 0.5000
+|   |   |   |   |   |--- text::like time <= 0.5000
+|   |   |   |   |   |   |--- colours_missing <= 0.5000
+|   |   |   |   |   |   |   |--- text::passage of <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::time is <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::orchestral <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::animals <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 48
+|   |   |   |   |   |   |   |   |   |   |--- text::animals >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- text::orchestral >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::stays <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- text::stays >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::time is >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::passage of >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- colours_missing >  0.5000
+|   |   |   |   |   |   |   |--- text::confused <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::cream <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- intensity <= 8.5000
+|   |   |   |   |   |   |   |   |   |   |--- intensity <= 4.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- intensity >  4.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- intensity >  8.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::cream >  0.5000
+|   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::confused >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::like time >  0.5000
+|   |   |   |   |   |   |--- objects <= 3.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- objects >  3.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- text::wonder >  0.5000
+|   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::me >  1.5000
+|   |   |   |   |--- text::gentle with <= 0.5000
+|   |   |   |   |   |--- text::piano <= 1.5000
+|   |   |   |   |   |   |--- text::storm <= 0.5000
+|   |   |   |   |   |   |   |--- text::feel quiet <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::bowl <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::way <= 2.0000
+|   |   |   |   |   |   |   |   |   |   |--- text::be played <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- text::be played >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::way >  2.0000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |--- text::bowl >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::atmosphere <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::atmosphere >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |--- text::feel quiet >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::storm >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- text::piano >  1.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::gentle with >  0.5000
+|   |   |   |   |   |--- class: 0.0
+|   |   |--- text::tired >  0.5000
+|   |   |   |--- colours <= 3.5000
+|   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom <= 0.5000
+|   |   |   |   |   |--- text::beat with <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::beat with >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Bathroom >  0.5000
+|   |   |   |   |   |--- class: 2.0
+|   |   |   |--- colours >  3.5000
+|   |   |   |   |--- class: 2.0
+|   |--- What season does this art piece remind you of?=Spring >  0.5000
+|   |   |--- text::sky <= 0.5000
+|   |   |   |--- text::interstellar <= 0.5000
+|   |   |   |   |--- text::anxiety <= 0.5000
+|   |   |   |   |   |--- text::salad <= 0.5000
+|   |   |   |   |   |   |--- text::clocks <= 0.5000
+|   |   |   |   |   |   |   |--- text::has an <= 0.5000
+|   |   |   |   |   |   |   |   |--- text::than <= 0.5000
+|   |   |   |   |   |   |   |   |   |--- text::kinda <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::fall asleep <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 43
+|   |   |   |   |   |   |   |   |   |   |--- text::fall asleep >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |--- text::kinda >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |--- text::than >  0.5000
+|   |   |   |   |   |   |   |   |   |--- text::delicious <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |--- text::other than <= 0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |   |   |   |   |--- text::other than >  0.5000
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |   |   |--- text::delicious >  0.5000
+|   |   |   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::has an >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |--- text::clocks >  0.5000
+|   |   |   |   |   |   |   |--- text::slipping away <= 0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |   |   |--- text::slipping away >  0.5000
+|   |   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::salad >  0.5000
+|   |   |   |   |   |   |--- text::have <= 0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |   |--- text::have >  0.5000
+|   |   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |--- text::anxiety >  0.5000
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Office <= 0.5000
+|   |   |   |   |   |   |--- class: 0.0
+|   |   |   |   |   |--- If you could purchase this painting, which room would you put that painting in?=Office >  0.5000
+|   |   |   |   |   |   |--- class: 2.0
+|   |   |   |--- text::interstellar >  0.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::sky >  0.5000
+|   |   |   |--- text::because the <= 0.5000
+|   |   |   |   |--- text::and slightly <= 0.5000
+|   |   |   |   |   |--- text::instrumental <= 0.5000
+|   |   |   |   |   |   |--- text::pink floyd <= 0.5000
+|   |   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |   |--- text::pink floyd >  0.5000
+|   |   |   |   |   |   |   |--- class: 2.0
+|   |   |   |   |   |--- text::instrumental >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |--- text::and slightly >  0.5000
+|   |   |   |   |   |--- text::strangely <= 0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |   |   |--- text::strangely >  0.5000
+|   |   |   |   |   |   |--- class: 1.0
+|   |   |   |--- text::because the >  0.5000
+|   |   |   |   |--- class: 2.0
+|--- text::pie it >  0.5000
+|   |--- text::this <= 0.5000
+|   |   |--- text::be <= 1.5000
+|   |   |   |--- colours_x_objects <= 7.5000
+|   |   |   |   |--- class: 0.0
+|   |   |   |--- colours_x_objects >  7.5000
+|   |   |   |   |--- class: 1.0
+|   |   |--- text::be >  1.5000
+|   |   |   |--- class: 1.0
+|   |--- text::this >  0.5000
+|   |   |--- class: 1.0
