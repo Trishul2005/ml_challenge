@@ -1,4 +1,4 @@
-"""
+﻿"""
 Random forest baseline for the ML challenge.
 
 This version uses a hybrid feature pipeline:
@@ -14,8 +14,6 @@ from pathlib import Path
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction import DictVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
@@ -67,6 +65,115 @@ PAINTING_TO_LABEL = {
 
 LABEL_TO_PAINTING = {value: key for key, value in PAINTING_TO_LABEL.items()}
 
+
+class DictVectorizer:
+    def __init__(self, sparse):
+        self.sparse = sparse
+        self.feature_names_ = []
+        self.vocabulary_ = {}
+
+    def fit(self, rows):
+        keys = set()
+        for row in rows:
+            keys.update(row.keys())
+        self.feature_names_ = sorted(keys)
+        self.vocabulary_ = {name: i for i, name in enumerate(self.feature_names_)}
+        return self
+
+    def transform(self, rows):
+        X = np.zeros((len(rows), len(self.feature_names_)), dtype=np.float32)
+        for i, row in enumerate(rows):
+            for key, value in row.items():
+                j = self.vocabulary_.get(key)
+                if j is not None:
+                    X[i, j] = float(value)
+        return X
+
+    def fit_transform(self, rows):
+        self.fit(rows)
+        return self.transform(rows)
+
+    def get_feature_names_out(self):
+        return np.array(self.feature_names_, dtype=object)
+
+
+class CountVectorizer:
+    def __init__(
+        self,
+        lowercase,
+        token_pattern,
+        ngram_range,
+        min_df,
+        max_features
+    ):
+        self.lowercase = lowercase
+        self.token_pattern = token_pattern
+        self.ngram_range = ngram_range
+        self.min_df = min_df
+        self.max_features = max_features
+        self.vocabulary_ = {}
+        self._feature_names = []
+        self._token_re = re.compile(token_pattern)
+
+    def _tokenize(self, text):
+        text = "" if text is None else str(text)
+        if self.lowercase:
+            text = text.lower()
+        base_tokens = self._token_re.findall(text)
+
+        min_n, max_n = self.ngram_range
+        all_tokens = []
+        for n in range(min_n, max_n + 1):
+            if n <= 0:
+                continue
+            if n == 1:
+                all_tokens.extend(base_tokens)
+                continue
+            if len(base_tokens) < n:
+                continue
+            for i in range(len(base_tokens) - n + 1):
+                all_tokens.append(" ".join(base_tokens[i : i + n]))
+        return all_tokens
+
+    def fit(self, texts):
+        doc_freq = {}
+        n_docs = len(texts)
+
+        for text in texts:
+            seen = set(self._tokenize(text))
+            for token in seen:
+                doc_freq[token] = doc_freq.get(token, 0) + 1
+
+        if isinstance(self.min_df, float):
+            min_df_count = int(np.ceil(self.min_df * n_docs))
+        else:
+            min_df_count = int(self.min_df)
+        min_df_count = max(1, min_df_count)
+
+        items = [(tok, df) for tok, df in doc_freq.items() if df >= min_df_count]
+        items.sort(key=lambda x: (-x[1], x[0]))
+        if self.max_features is not None:
+            items = items[: int(self.max_features)]
+
+        self._feature_names = [tok for tok, _ in items]
+        self.vocabulary_ = {tok: i for i, tok in enumerate(self._feature_names)}
+        return self
+
+    def transform(self, texts):
+        X = np.zeros((len(texts), len(self._feature_names)), dtype=np.float32)
+        for i, text in enumerate(texts):
+            for token in self._tokenize(text):
+                j = self.vocabulary_.get(token)
+                if j is not None:
+                    X[i, j] += 1.0
+        return X
+
+    def fit_transform(self, texts):
+        self.fit(texts)
+        return self.transform(texts)
+
+    def get_feature_names_out(self):
+        return np.array(self._feature_names, dtype=object)
 
 def clamp(value, low, high):
     return max(low, min(high, value))
@@ -170,13 +277,13 @@ def build_feature_matrices(train_rows, other_rows):
     train_struct = structured_vectorizer.fit_transform(
         [row_to_structured_features(row) for row in train_rows]
     )
-    train_text = text_vectorizer.fit_transform([row_to_text(row) for row in train_rows]).toarray()
+    train_text = text_vectorizer.fit_transform([row_to_text(row) for row in train_rows])
     train_X = np.hstack([train_struct, train_text])
 
     other_matrices = []
     for rows in other_rows:
         struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
-        text = text_vectorizer.transform([row_to_text(row) for row in rows]).toarray()
+        text = text_vectorizer.transform([row_to_text(row) for row in rows])
         other_matrices.append(np.hstack([struct, text]))
 
     return train_X, other_matrices, structured_vectorizer, text_vectorizer
@@ -184,7 +291,7 @@ def build_feature_matrices(train_rows, other_rows):
 
 def transform_rows(rows, structured_vectorizer, text_vectorizer):
     struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
-    text = text_vectorizer.transform([row_to_text(row) for row in rows]).toarray()
+    text = text_vectorizer.transform([row_to_text(row) for row in rows])
     return np.hstack([struct, text])
 
 
