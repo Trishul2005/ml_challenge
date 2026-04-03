@@ -375,7 +375,7 @@ def main():
     # print(f"Generated {len(predictions)} predictions.")
     # print(predictions[:10])
 
-    return structured_vectorizer, text_vectorizer, train_acc, val_acc, test_acc
+    return structured_vectorizer, text_vectorizer, model, train_acc, val_acc, test_acc
 
     # from sklearn.tree import export_text
     # # Assume 'clf' is your trained DecisionTreeClassifier
@@ -384,22 +384,27 @@ def main():
     # print(len(final_model.estimators_))
 
 
-if __name__ == "__main__":
+def get_best():
     N = 100
     max_acc = (0, 0, 0)
     total_acc = (0, 0, 0)
     vec1, vec2 = None, None
+    m = None
     for i in range(N):
-        a, b, x, y, z = main()
+        a, b, c, x, y, z = main()
         acc = (x, y, z)
         if acc[1:] > max_acc[1:]:
             max_acc = acc
             vec1 = a
             vec2 = b
+            m = c
         
         if i % 10 == 0:
             print(i, acc)
 
     print(max_acc)
-    vec1.dump()
-    vec2.dump()
+    arr = np.array(total_acc)
+    print(arr.mean(axis=0))
+    print(arr.var(axis=0))
+
+    return m, vec1, vec2
