@@ -97,8 +97,8 @@ class DictVectorizer:
         return np.array(self.feature_names_, dtype=object)
 
     def dump(self):
-        print(self.feature_names_)
         print(self.vocabulary_)
+        print(self.feature_names_)
 
 
 class CountVectorizer:
