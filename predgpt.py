@@ -96,6 +96,10 @@ class DictVectorizer:
     def get_feature_names_out(self):
         return np.array(self.feature_names_, dtype=object)
 
+    def dump(self):
+        print(self.feature_names_)
+        print(self.vocabulary_)
+
 
 class CountVectorizer:
     def __init__(
@@ -114,6 +118,10 @@ class CountVectorizer:
         self.vocabulary_ = {}
         self._feature_names = []
         self._token_re = re.compile(token_pattern)
+    
+    def dump(self):
+        print(self.vocabulary_)
+        print(self._feature_names)
 
     def _tokenize(self, text):
         text = "" if text is None else str(text)
@@ -367,7 +375,7 @@ def main():
     # print(f"Generated {len(predictions)} predictions.")
     # print(predictions[:10])
 
-    return train_acc, val_acc, test_acc
+    return structured_vectorizer, text_vectorizer, train_acc, val_acc, test_acc
 
     # from sklearn.tree import export_text
     # # Assume 'clf' is your trained DecisionTreeClassifier
@@ -380,12 +388,18 @@ if __name__ == "__main__":
     N = 100
     max_acc = (0, 0, 0)
     total_acc = (0, 0, 0)
+    vec1, vec2 = None, None
     for i in range(N):
-        acc = main()
+        a, b, x, y, z = main()
+        acc = (x, y, z)
         if acc[1:] > max_acc[1:]:
             max_acc = acc
+            vec1 = a
+            vec2 = b
         
         if i % 10 == 0:
             print(i, acc)
 
     print(max_acc)
+    vec1.dump()
+    vec2.dump()
