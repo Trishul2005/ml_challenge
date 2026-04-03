@@ -14,11 +14,120 @@ from pathlib import Path
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction import DictVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
+# from sklearn.feature_extraction import DictVectorizer
+# from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from joblib import dump, load
+
+class DictVectorizer:
+    def __init__(self, sparse=False):
+        self.sparse = sparse
+        self.feature_names_ = []
+        self.vocabulary_ = {}
+
+    def fit(self, rows):
+        keys = set()
+        for row in rows:
+            keys.update(row.keys())
+        self.feature_names_ = sorted(keys)
+        self.vocabulary_ = {name: i for i, name in enumerate(self.feature_names_)}
+        return self
+
+    def transform(self, rows):
+        X = np.zeros((len(rows), len(self.feature_names_)), dtype=np.float32)
+        for i, row in enumerate(rows):
+            for key, value in row.items():
+                j = self.vocabulary_.get(key)
+                if j is not None:
+                    X[i, j] = float(value)
+        return X
+
+    def fit_transform(self, rows):
+        self.fit(rows)
+        return self.transform(rows)
+
+    def get_feature_names_out(self):
+        return np.array(self.feature_names_, dtype=object)
+
+
+class CountVectorizer:
+    def __init__(
+        self,
+        lowercase=True,
+        token_pattern=r"(?u)\b\w[\w']+\b",
+        ngram_range=(1, 1),
+        min_df=1,
+        max_features=None,
+    ):
+        self.lowercase = lowercase
+        self.token_pattern = token_pattern
+        self.ngram_range = ngram_range
+        self.min_df = min_df
+        self.max_features = max_features
+        self.vocabulary_ = {}
+        self._feature_names = []
+        self._token_re = re.compile(token_pattern)
+
+    def _tokenize(self, text):
+        text = "" if text is None else str(text)
+        if self.lowercase:
+            text = text.lower()
+        base_tokens = self._token_re.findall(text)
+
+        min_n, max_n = self.ngram_range
+        all_tokens = []
+        for n in range(min_n, max_n + 1):
+            if n <= 0:
+                continue
+            if n == 1:
+                all_tokens.extend(base_tokens)
+                continue
+            if len(base_tokens) < n:
+                continue
+            for i in range(len(base_tokens) - n + 1):
+                all_tokens.append(" ".join(base_tokens[i : i + n]))
+        return all_tokens
+
+    def fit(self, texts):
+        doc_freq = {}
+        n_docs = len(texts)
+
+        for text in texts:
+            seen = set(self._tokenize(text))
+            for token in seen:
+                doc_freq[token] = doc_freq.get(token, 0) + 1
+
+        if isinstance(self.min_df, float):
+            min_df_count = int(np.ceil(self.min_df * n_docs))
+        else:
+            min_df_count = int(self.min_df)
+        min_df_count = max(1, min_df_count)
+
+        items = [(tok, df) for tok, df in doc_freq.items() if df >= min_df_count]
+        items.sort(key=lambda x: (-x[1], x[0]))
+        if self.max_features is not None:
+            items = items[: int(self.max_features)]
+
+        self._feature_names = [tok for tok, _ in items]
+        self.vocabulary_ = {tok: i for i, tok in enumerate(self._feature_names)}
+        return self
+
+    def transform(self, texts):
+        X = np.zeros((len(texts), len(self._feature_names)), dtype=np.float32)
+        for i, text in enumerate(texts):
+            for token in self._tokenize(text):
+                j = self.vocabulary_.get(token)
+                if j is not None:
+                    X[i, j] += 1.0
+        return X
+
+    def fit_transform(self, texts):
+        self.fit(texts)
+        return self.transform(texts)
+
+    def get_feature_names_out(self):
+        return np.array(self._feature_names, dtype=object)
 
 TRAIN_FILE = Path(__file__).with_name("ml_challenge_dataset.csv")
 LABEL_COL = "Painting"
@@ -170,31 +279,29 @@ def build_feature_matrices(train_rows, other_rows):
     train_struct = structured_vectorizer.fit_transform(
         [row_to_structured_features(row) for row in train_rows]
     )
-    train_text = text_vectorizer.fit_transform([row_to_text(row) for row in train_rows]).toarray()
+    train_text = text_vectorizer.fit_transform([row_to_text(row) for row in train_rows])
     train_X = np.hstack([train_struct, train_text])
 
     other_matrices = []
     for rows in other_rows:
         struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
-        text = text_vectorizer.transform([row_to_text(row) for row in rows]).toarray()
+        text = text_vectorizer.transform([row_to_text(row) for row in rows])
         other_matrices.append(np.hstack([struct, text]))
 
     return train_X, other_matrices, structured_vectorizer, text_vectorizer
 
-def build_feature_matricies(train_rows, other_rows):
-    pass
 
 
-def transform_rows(rows, structured_vectorizer, text_vectorizer):
-    struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
-    text = text_vectorizer.transform([row_to_text(row) for row in rows]).toarray()
-    return np.hstack([struct, text])
+# def transform_rows(rows, structured_vectorizer, text_vectorizer):
+#     struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
+#     text = text_vectorizer.transform([row_to_text(row) for row in rows]).toarray()
+#     return np.hstack([struct, text])
 
 
 def train_model(X_train, y_train):
     model = RandomForestClassifier(
-        n_estimators=100,
-        max_depth=None,
+        n_estimators=250,
+        max_depth=250,
         class_weight="balanced_subsample",
         max_features="sqrt",
         n_jobs=10,
@@ -203,15 +310,15 @@ def train_model(X_train, y_train):
     return model
 
 
-def predict_all(filename):
-    train_rows, train_labels = load_training_data()
-    X_train, _, structured_vectorizer, text_vectorizer = build_feature_matrices(train_rows, [])
-    model = train_model(X_train, train_labels)
+# def predict_all(filename):
+#     train_rows, train_labels = load_training_data()
+#     X_train, _, structured_vectorizer, text_vectorizer = build_feature_matrices(train_rows, [])
+#     model = train_model(X_train, train_labels)
 
-    test_rows = load_rows(filename)
-    X_test = transform_rows(test_rows, structured_vectorizer, text_vectorizer)
-    preds = model.predict(X_test)
-    return [LABEL_TO_PAINTING[int(pred)] for pred in preds]
+#     test_rows = load_rows(filename)
+#     X_test = transform_rows(test_rows, structured_vectorizer, text_vectorizer)
+#     preds = model.predict(X_test)
+#     return [LABEL_TO_PAINTING[int(pred)] for pred in preds]
 
 
 def main():
@@ -242,31 +349,51 @@ def main():
     val_acc = accuracy_score(y_val, model.predict(X_val))
     test_acc = accuracy_score(y_test, model.predict(X_test))
 
-    vocab_size = len(text_vectorizer.vocabulary_)
-    total_features = X_train.shape[1]
+    # vocab_size = len(text_vectorizer.vocabulary_)
+    # total_features = X_train.shape[1]
 
-    print(f"Vocabulary size: {vocab_size}")
-    print(f"Total feature count: {total_features}")
-    print(
-        "Random forest accuracy: "
-        f"train={train_acc:.4f}, val={val_acc:.4f}, test={test_acc:.4f}"
-    )
+    # print(f"Vocabulary size: {vocab_size}")
+    # print(f"Total feature count: {total_features}")
+    # print(
+    #     "Random forest accuracy: "
+    #     f"train={train_acc:.4f}, val={val_acc:.4f}, test={test_acc:.4f}"
+    # )
 
     # Retrain on the full labeled dataset before generating predictions.
-    X_full, _, structured_vectorizer, text_vectorizer = build_feature_matrices(all_rows, [])
-    final_model = train_model(X_full, all_labels)
+    # X_full, _, structured_vectorizer, text_vectorizer = build_feature_matrices(all_rows, [])
+    # final_model = train_model(X_full, all_labels)
 
-    test_file = Path(sys.argv[1]) if len(sys.argv) == 2 else TRAIN_FILE
-    prediction_rows = load_rows(test_file)
-    X_pred = transform_rows(prediction_rows, structured_vectorizer, text_vectorizer)
-    predictions = [LABEL_TO_PAINTING[int(pred)] for pred in final_model.predict(X_pred)]
+    # test_file = Path(sys.argv[1]) if len(sys.argv) == 2 else TRAIN_FILE
+    # prediction_rows = load_rows(test_file)
+    # X_pred = transform_rows(prediction_rows, structured_vectorizer, text_vectorizer)
+    # predictions = [LABEL_TO_PAINTING[int(pred)] for pred in final_model.predict(X_pred)]
 
-    print(f"Generated {len(predictions)} predictions.")
-    print(predictions[:10])
+    # print(f"Generated {len(predictions)} predictions.")
+    # print(predictions[:10])
 
-    dump(final_model, 'random_forest.joblib')
-    data = load('random_forest.joblib')
-    data.to_csv('random_forest.csv', index=False)
+    return train_acc, val_acc, test_acc
+
+    # from sklearn.tree import export_text
+    # # Assume 'clf' is your trained DecisionTreeClassifier
+    # tree_rules = export_text(final_model.estimators_[0], feature_names=None)
+    # print(tree_rules)
+    # print(len(final_model.estimators_))
+
 
 if __name__ == "__main__":
-    main()
+    N = 100
+    max_acc = (0, 0, 0)
+    accs = []
+    for i in range(N):
+        acc = main()
+        accs.append(acc)
+        if acc[1:] > max_acc[1:]:
+            max_acc = acc
+        
+        if i % 10 == 0:
+            print(i, acc)
+
+    print(max_acc)
+    arr = np.array(accs)
+    print(arr.mean(axis=0))
+    print(arr.var(axis=0))

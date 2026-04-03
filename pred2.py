@@ -369,7 +369,7 @@ def train_neural_net(X, y):
     y_encoded = le.fit_transform(y) if y.dtype == object else y
 
     model = MLPClassifier(
-        hidden_layer_sizes=(256, 128),
+        hidden_layer_sizes=(64, 32),
         activation='relu',
         solver='adam',
         alpha=1e-4,          # L2 regularization (replaces your SMOOTHING role)
