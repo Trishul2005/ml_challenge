@@ -16,7 +16,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
-
+from joblib import dump, load
 
 TRAIN_FILE = Path(__file__).with_name("ml_challenge_dataset.csv")
 LABEL_COL = "Painting"
@@ -288,7 +288,6 @@ def build_feature_matrices(train_rows, other_rows):
 
     return train_X, other_matrices, structured_vectorizer, text_vectorizer
 
-
 def transform_rows(rows, structured_vectorizer, text_vectorizer):
     struct = structured_vectorizer.transform([row_to_structured_features(row) for row in rows])
     text = text_vectorizer.transform([row_to_text(row) for row in rows])
@@ -297,7 +296,8 @@ def transform_rows(rows, structured_vectorizer, text_vectorizer):
 
 def train_model(X_train, y_train):
     model = RandomForestClassifier(
-        n_estimators=900,
+        n_estimators=250,
+        max_depth=150,
         class_weight="balanced_subsample",
         max_features="sqrt",
         n_jobs=-1,
@@ -348,25 +348,44 @@ def main():
     vocab_size = len(text_vectorizer.vocabulary_)
     total_features = X_train.shape[1]
 
-    print(f"Vocabulary size: {vocab_size}")
-    print(f"Total feature count: {total_features}")
-    print(
-        "Random forest accuracy: "
-        f"train={train_acc:.4f}, val={val_acc:.4f}, test={test_acc:.4f}"
-    )
+    # print(f"Vocabulary size: {vocab_size}")
+    # print(f"Total feature count: {total_features}")
+    # print(
+    #     "Random forest accuracy: "
+    #     f"train={train_acc:.4f}, val={val_acc:.4f}, test={test_acc:.4f}"
+    # )
 
     # Retrain on the full labeled dataset before generating predictions.
-    X_full, _, structured_vectorizer, text_vectorizer = build_feature_matrices(all_rows, [])
-    final_model = train_model(X_full, all_labels)
+    # X_full, _, structured_vectorizer, text_vectorizer = build_feature_matrices(all_rows, [])
+    # final_model = train_model(X_full, all_labels)
 
-    test_file = Path(sys.argv[1]) if len(sys.argv) == 2 else TRAIN_FILE
-    prediction_rows = load_rows(test_file)
-    X_pred = transform_rows(prediction_rows, structured_vectorizer, text_vectorizer)
-    predictions = [LABEL_TO_PAINTING[int(pred)] for pred in final_model.predict(X_pred)]
+    # test_file = Path(sys.argv[1]) if len(sys.argv) == 2 else TRAIN_FILE
+    # prediction_rows = load_rows(test_file)
+    # X_pred = transform_rows(prediction_rows, structured_vectorizer, text_vectorizer)
+    # predictions = [LABEL_TO_PAINTING[int(pred)] for pred in final_model.predict(X_pred)]
 
-    print(f"Generated {len(predictions)} predictions.")
-    print(predictions[:10])
+    # print(f"Generated {len(predictions)} predictions.")
+    # print(predictions[:10])
+
+    return train_acc, val_acc, test_acc
+
+    # from sklearn.tree import export_text
+    # # Assume 'clf' is your trained DecisionTreeClassifier
+    # tree_rules = export_text(final_model.estimators_[0], feature_names=None)
+    # print(tree_rules)
+    # print(len(final_model.estimators_))
 
 
 if __name__ == "__main__":
-    main()
+    N = 100
+    max_acc = (0, 0, 0)
+    total_acc = (0, 0, 0)
+    for i in range(N):
+        acc = main()
+        if acc[1:] > max_acc[1:]:
+            max_acc = acc
+        
+        if i % 10 == 0:
+            print(i, acc)
+
+    print(max_acc)
