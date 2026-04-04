@@ -13,7 +13,7 @@ from pathlib import Path
 
 import numpy as np
 
-MODEL_FILE = Path(__file__).with_name("predgpt_forest.npz")
+MODEL_FILE = Path(__file__).with_name("final_forest.npz")
 
 TEXT_COLS = [
     "Describe how this painting makes you feel.",
