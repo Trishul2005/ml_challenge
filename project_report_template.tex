@@ -142,17 +142,31 @@ What else did you try?  We are looking for:
 
 \section{Model Exploration}
 
-\textbf{Worth 1 point. No more than 1 page.} Describe the model(s) that you evaluated/explored.
-We are expecting a thorough exploration of at least 3+ family of models\footnote{A "family" of models are
-	a group of similar models. For example, linear models of various types are considered to be a part of
-	the same family.}, even if you did't ultimately use those models.
-We are looking for:
-\begin{itemize}
-	\item How you are applied these models. You don't need to reiterate how they work.
-	Instead, we're looking for a description of the choices
-	you made to apply each model to this task: e.g., what features from the ``Data" section
-	did you use for each model? What adjustments (if any) did you need to make?
-\end{itemize}
+% \textbf{Worth 1 point. No more than 1 page.} Describe the model(s) that you evaluated/explored.
+% We are expecting a thorough exploration of at least 3+ family of models\footnote{A "family" of models are
+% 	a group of similar models. For example, linear models of various types are considered to be a part of
+% 	the same family.}, even if you did't ultimately use those models.
+% We are looking for:
+% \begin{itemize}
+% 	\item How you are applied these models. You don't need to reiterate how they work.
+% 	Instead, we're looking for a description of the choices
+% 	you made to apply each model to this task: e.g., what features from the ``Data" section
+% 	did you use for each model? What adjustments (if any) did you need to make?
+% \end{itemize}
+
+The models that we explored were Naive Bayes, Decision Tree, Random Forest, K Nearest Neighbours, Multi Layer Perceptron, and combining an ensemble of models. Before evaluating the models we first pre-processed the data to ensure the features were consistent. The pre-processing included replacing categorical columns with one-hot-vectors, blank responses with empty strings, and only looking at English text. For text entry features, we used TF-IDF vectorization to give higher weights to words that appear often in a particular example but are less common in the entire dataset. Using TF-IDF was a natural decision since it helps the models make use of certain words to make a prediction. These pre-processed features were used as the initial input features so that we could compare the models more consistently.
+
+For Naive Bayes, we explored the initial sklearn TF-IDF version and later experimented with bag-of-words. Since the data had free text word features, using Naive Bayes was a good fit for the data. In the bag-of-words exploration we built it using the three most indicative categories which were food, soundtrack, and feeling. This made Naive Bayes perform better, while keeping the model lightweight.
+
+For the tree models, we looked at Decision Trees and Random Forest. The Decision Tree was used as a baseline using the initial feature representation without any extra tuning. This allowed us to identify that feature splits could be a useful method for prediction. With Random Forest, we used a more thought out feature choice by using the same three indicative categories from above, bag-of-words, and one hot vectors for categorical options. This representation consistently performed better than our initial input features.
+
+We also briefly explored K Nearest Neighbours and Multi Layer Perceptron on the initial TF-IDF data. For KNN, we looked at different values of K, however the prediction results were far weaker than the earlier models so we did not continue. MLP was used to experiment with a neural network and we further explored with the same detailed input features as Random Forest. The results for MLP were good, however they were still behind Naive Bayes and Random Forest.
+
+Finally, from the exploration we also tried an ensemble approach. This looked like a vote system where we ran Random Forest, Naive Bayes, and MLP together and then picked the most common prediction. Ties were broken by defaulting to Random Forest since that was our highest accuracy model. This model combination resulted in our best accuracy numbers, but the complexity to implement multiple models and within the size constraint of the project made us focus on only one model.
+
+Overall, our main choice was to begin with a common shared choice for all models, then develop a more detailed input feature choice for models with the most promising initial accuracies. This helped us compare models early on, and focus on building stronger models such as Random Forest and Naive Bayes to better match the structure of the dataset.
+
+\newpage
 
 
 \section{Model Choice and Hyperparameters}
