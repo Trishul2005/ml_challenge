@@ -1,6 +1,6 @@
 
 import numpy as np
-import predgpt as m
+import pred_train as m
 
 model, structured_vectorizer, text_vectorizer = m.get_best()
 
@@ -31,4 +31,4 @@ for i, est in enumerate(model.estimators_):
     arrays[f"{prefix}_threshold"] = t.threshold.astype(np.float32)
     arrays[f"{prefix}_value"] = t.value[:, 0, :].astype(np.float32)
 
-np.savez_compressed("predgpt_forest.npz", **arrays)
+np.savez_compressed("pred_train_forest.npz", **arrays)
