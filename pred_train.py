@@ -410,5 +410,3 @@ def get_best():
     print(total_acc / N)
 
     return m, vec1, vec2
-
-get_best()
