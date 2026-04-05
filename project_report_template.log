@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.28)  3 APR 2026 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.28)  4 APR 2026 22:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -504,27 +504,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.151 	\item
              How you are applied these models. You don't need to reiterate h... [1
 
-] [2] (./project_report_template.bbl) [3] (./project_report_template.aux)
+] [2] [3] (./project_report_template.bbl) [4] (./project_report_template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `project_report_template.out' has not changed.
-(rerunfilecheck)             Checksum: 85E28150CDE6A293CE27D3A933466E13;909.
+(rerunfilecheck)             Checksum: 8DA7B1BE9546ABC060B40002B2F1B227;1174.
  ) 
 Here is how much of TeX's memory you used:
- 16425 strings out of 474116
- 316026 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 38591 multiletter control sequences out of 15000+600000
- 581890 words of font info for 98 fonts, out of 8000000 for 9000
+ 16436 strings out of 474116
+ 316209 string characters out of 5743682
+ 1938187 words of memory out of 5000000
+ 38598 multiletter control sequences out of 15000+600000
+ 582879 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,11n,80p,537b,971s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,11n,80p,961b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on project_report_template.pdf (4 pages, 69476 bytes).
+Output written on project_report_template.pdf (5 pages, 73801 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

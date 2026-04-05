@@ -302,16 +302,25 @@ def transform_rows(rows, structured_vectorizer, text_vectorizer):
     return np.hstack([struct, text])
 
 
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neural_network import MLPClassifier
 def train_model(X_train, y_train):
     model = RandomForestClassifier(
-        n_estimators=300,
-        max_depth=200,
+        n_estimators=250,
+        max_depth=150,
         class_weight="balanced_subsample",
         max_features="sqrt",
         n_jobs=-1,
     )
+
+    model2 = GaussianNB()
+    model3 = MLPClassifier(
+        hidden_layer_sizes=(256, 128)
+    )
     model.fit(X_train, y_train)
-    return model
+    model2.fit(X_train, y_train)
+    model3.fit(X_train, y_train)
+    return model, model2, model3
 
 
 def predict_all(filename):
@@ -328,19 +337,27 @@ def predict_all(filename):
 def main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, text_vectorizer):
 
 
-    model = train_model(X_train, y_train)
+    model, model2, model3 = train_model(X_train, y_train)
 
     train_acc = accuracy_score(y_train, model.predict(X_train))
     val_acc = accuracy_score(y_val, model.predict(X_val))
     test_acc = accuracy_score(y_test, model.predict(X_test))
 
-    vocab_size = len(text_vectorizer.vocabulary_)
-    total_features = X_train.shape[1]
+    train_acc2 = accuracy_score(y_train, model2.predict(X_train))
+    val_acc2 = accuracy_score(y_val, model2.predict(X_val))
+    test_acc2 = accuracy_score(y_test, model2.predict(X_test))
+    
+    train_acc3 = accuracy_score(y_train, model3.predict(X_train))
+    val_acc3 = accuracy_score(y_val, model3.predict(X_val))
+    test_acc3 = accuracy_score(y_test, model3.predict(X_test))
+
+    # vocab_size = len(text_vectorizer.vocabulary_)
+    # total_features = X_train.shape[1]
 
     # print(f"Vocabulary size: {vocab_size}")
     # print(f"Total feature count: {total_features}")
     # print(
-    #     "Random forest accuracy: "
+    #     # "Random forest accuracy: "
     #     f"train={train_acc:.4f}, val={val_acc:.4f}, test={test_acc:.4f}"
     # )
 
@@ -356,7 +373,7 @@ def main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, 
     # print(f"Generated {len(predictions)} predictions.")
     # print(predictions[:10])
 
-    return structured_vectorizer, text_vectorizer, model, train_acc, val_acc, test_acc
+    return structured_vectorizer, text_vectorizer, model, train_acc, val_acc, test_acc, model2, train_acc2, val_acc2, test_acc2, model3, train_acc3, val_acc3, test_acc3
 
     # from sklearn.tree import export_text
     # # Assume 'clf' is your trained DecisionTreeClassifier
@@ -368,47 +385,67 @@ def main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, 
 def get_best():
     all_rows, all_labels = load_training_data()
 
-    rows_train, rows_temp, y_train, y_temp = train_test_split(
-        all_rows,
-        all_labels,
-        test_size=0.30,
-        stratify=all_labels,
-    )
-
-    rows_val, rows_test, y_val, y_test = train_test_split(
-        rows_temp,
-        y_temp,
-        test_size=0.50,
-        stratify=y_temp,
-    )
-
-    X_train, [X_val, X_test], structured_vectorizer, text_vectorizer = build_feature_matrices(
-        rows_train,
-        [rows_val, rows_test],
-    )
-
-    N = 100
-    max_acc = (0, 0, 0)
-    total_acc = 0
-    vec1, vec2 = None, None
-    m = None
+    N = 50
+    max_acc = [[0, 0, 0]]*3
+    total_acc = [0]*3
+    vec1, vec2 = [[]]*3, [[]]*3
+    m = [None] *3
     for i in range(N):
-        a, b, c, x, y, z = main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, text_vectorizer)
-        acc = (x, y, z)
-        if acc[1:] > max_acc[1:]:
-            max_acc = acc
-            vec1 = a
-            vec2 = b
-            m = c
+        rows_train, rows_temp, y_train, y_temp = train_test_split(
+            all_rows,
+            all_labels,
+            test_size=0.30,
+            stratify=all_labels,
+        )
+
+        rows_val, rows_test, y_val, y_test = train_test_split(
+            rows_temp,
+            y_temp,
+            test_size=0.50,
+            stratify=y_temp,
+        )
+
+        X_train, [X_val, X_test], structured_vectorizer, text_vectorizer = build_feature_matrices(
+            rows_train,
+            [rows_val, rows_test],
+        )
+
+
+        a, b, c, x, y, z, c2, x2, y2, z2, c3, x3, y3, z3 = main(X_train, y_train, X_val, y_val, X_test, y_test, structured_vectorizer, text_vectorizer)
+        acc = [x, y, z]
+        acc2 = [x2, y2, z2]
+        acc3 = [x3, y3, z3]
+        if acc[1:] > max_acc[0][1:]:
+            max_acc[0] = acc
+            vec1[0] = a
+            vec2[0] = b
+            m[0] = c
+
+        if acc2[1:] > max_acc[1][1:]:
+            max_acc[1] = acc2
+            vec1[1] = a
+            vec2[1] = b
+            m[1] = c2
+
+        if acc3[1:] > max_acc[2][1:]:
+            max_acc[2] = acc3
+            vec1[2] = a
+            vec2[2] = b
+            m[2] = c3
         
+        total_acc[0] += (acc[1])
+        total_acc[1] += (acc2[1])
+        total_acc[2] += (acc3[1])
+
         if i % 10 == 0:
-            print(i, acc)
-        
-        total_acc += y
+            print(i, acc, acc2, acc3)
 
     print(max_acc)
-    print(total_acc / N)
+    arr = np.array(total_acc)
+    print(arr)
+    # print(arr.mean(axis=1))
 
-    return m, vec1, vec2
+    return m[0], vec1[0], vec2[0] # we went with random forest
 
-get_best()
+if __name__ == '__main__':
+    get_best()

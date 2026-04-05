@@ -180,6 +180,34 @@ We are looking for:
 	used while developing your model.
 \end{itemize}
 
+\subsection{Choosing a Model}
+
+\subsubsection{Exploration}
+When considering which model to use, we considered three main candidates: Na\"ive bayes, multi-layer perceptrons, and random forests. To evaluate which model to choose we looked at the three models average performance as well as peak performance over hundreds of different training-test splits. We did this because we noticed that there is a significant difference in validation accuracy depending on our split on untuned models, so evaluating on one split could bias one model over another. We kept evaluated the same split for each of the three models and found that random forests had the highest validation accuracy on avg and in its extrema before hyperparameter tuning. We also did a higher volume of random splits on each model without keeping them consistent as that was faster when we considering a single model and the results were consistent with when we homologated the splits between model families.
+This gave us confidence that the random forest family would provide the best model we could train as it outpreformed Na\"ive bayes and MLPs in both mean and peak validation accuracy across all runs.
+
+Once we went with Random forest, we considered 2 hyperparameters to tune: tree depth and number of trees. We went this these because they determine how tightly each tree can approximate a function and how many such trees we would be averaging across. We did binary search on two axes, in each iteration we took one hyperparameter and shifted it, leaving the other constant. This was to reduce ambiguity of the exact cause of decrease/increase of performance. We evaluated performance by a model's mean validation error across many splits. Once again since split choice was a large source of variance we ran each test 10-20 times across different splits allowing the random forest to be trained 100 times per choice of split to allow for variance due to ties to average out. 
+
+Specifically consider this table with a selection of parameter pair and metrics we got for them:
+
+\begin{tabular}{c|c|c|c}
+	n\_estimators & max\_depth & mean validation accuracy & max validation accuracy\\
+	\hline
+	250 & 150 & 0.924901185770751 & 0.9486166007905138\\
+	100 & 150 & 0.8897628458498023 & 0.9288537549407114\\
+	300 & 150 & 0.8746245059288534 & 0.8972332015810277\\
+	200 & 150 & 0.8909090909090912 & 0.9051383399209486\\
+	250 & 100 & 0.8927272727272729 & 0.9169960474308301\\
+	250 & 200 & 0.878063241106719 & 0.9011857707509882\\
+	250 & 300 & 0.8533596837944666 & 0.8695652173913043\\
+	250 & 50 & 0.8881422924901191 & 0.9051383399209486\\
+	200 & 100 & 0.8927667984189728 & 0.909090909090909\\
+	300 & 200 & 0.8972727272727273 & 0.9130434782608695\\
+
+	
+\end{tabular}
+
+From these data points you can see that (250, 150) is a local minimum in the hyperparameter space. We neglected hunting beyond increments of 50 because that would result in diminishing returns and a lot more effort, especially when we have a model with 94\% validation accuracy.
 
 \section{Prediction}
 
