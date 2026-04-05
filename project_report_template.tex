@@ -171,34 +171,32 @@ Overall, our main choice was to begin with a common shared choice for all models
 
 \section{Model Choice and Hyperparameters}
 
-\textbf{Worth 3 points. No more than 3 pages.} How did you determine which model(s)
-to use in your final `pred.py', as well as an exploration of hyperparameters.
-We are looking for:
-\begin{itemize}
-	\item A convincing explanation of how you ensured that the evaluation metrics for various
-	models are comparable (i.e., are you using a consistent test set?)
-	\item A clear description of the evaluation metric(s) used to evaluate your model, 
-	as well as justification for its use.
-	\item A description of the hyperparameters that you are tuning, hyperparameter value
-	combinations that you have tried, and the value of the evaluation metric(s)
-	for those hyperparameters.
-	We are not looking for an exhaustive search of all possible hyperparameter 
-	combinations, but there should be enough evidence to demonstrate that your
-	hyperparameter choices are reasonable.
-	(Note that just saying "X was the best hyperparameter value based on metric Y out of
-	the hyperparameter values we tried" is not enough. Please present the values of the
-	evaluation metrics for each hyperparameter value to \textbf{show} that your choice was the best one.)
-	\item A clear description of what your final model choice looks like in the
-	submitted `pred.py' file.
-	\item The descriptions should be consistent with the `.py' and/or `.ipynb' files that you
-	used while developing your model.
-\end{itemize}
+% \textbf{Worth 3 points. No more than 3 pages.} How did you determine which model(s)
+% to use in your final `pred.py', as well as an exploration of hyperparameters.
+% We are looking for:
+% \begin{itemize}
+% 	\item A convincing explanation of how you ensured that the evaluation metrics for various
+% 	models are comparable (i.e., are you using a consistent test set?)
+% 	\item A clear description of the evaluation metric(s) used to evaluate your model, 
+% 	as well as justification for its use.
+% 	\item A description of the hyperparameters that you are tuning, hyperparameter value
+% 	combinations that you have tried, and the value of the evaluation metric(s)
+% 	for those hyperparameters.
+% 	We are not looking for an exhaustive search of all possible hyperparameter 
+% 	combinations, but there should be enough evidence to demonstrate that your
+% 	hyperparameter choices are reasonable.
+% 	(Note that just saying "X was the best hyperparameter value based on metric Y out of
+% 	the hyperparameter values we tried" is not enough. Please present the values of the
+% 	evaluation metrics for each hyperparameter value to \textbf{show} that your choice was the best one.)
+% 	\item A clear description of what your final model choice looks like in the
+% 	submitted `pred.py' file.
+% 	\item The descriptions should be consistent with the `.py' and/or `.ipynb' files that you
+% 	used while developing your model.
+% \end{itemize}
 
-\subsection{Choosing a Model}
+When considering which model to use, we considered three main candidates: Na\"ive bayes, multi-layer perceptrons, and random forests. To evaluate which model to choose we looked at the three models average performance as well as peak performance over hundreds of different training-test splits. We did this because we noticed that there is a significant difference in validation accuracy depending on our split on untuned models, so evaluating on one split could bias one model over another. To maintain consistency, we kept evaluated the same split for each of the three models and found that random forests had the highest validation accuracy on avg and in its extrema before hyperparameter tuning. We also did a higher volume of random splits on each model without keeping them consistent as that was faster when we considering a single model and the results were consistent with when we homologated the splits between model families. So our evaluation metric was aimed at being as fair as possible while keeping iteration speed up.
 
-\subsubsection{Exploration}
-When considering which model to use, we considered three main candidates: Na\"ive bayes, multi-layer perceptrons, and random forests. To evaluate which model to choose we looked at the three models average performance as well as peak performance over hundreds of different training-test splits. We did this because we noticed that there is a significant difference in validation accuracy depending on our split on untuned models, so evaluating on one split could bias one model over another. We kept evaluated the same split for each of the three models and found that random forests had the highest validation accuracy on avg and in its extrema before hyperparameter tuning. We also did a higher volume of random splits on each model without keeping them consistent as that was faster when we considering a single model and the results were consistent with when we homologated the splits between model families.
-This gave us confidence that the random forest family would provide the best model we could train as it outpreformed Na\"ive bayes and MLPs in both mean and peak validation accuracy across all runs.
+Specifically we saw Na\"ive bayes had on average a 74\% validation accuracy with a 90\% training accuracy and MLPs having around 88\% validation accuracy with a 95\% training accuracy. These were averages over ~100-200 runs with identical train-validation-test splits for each model. We also tracked the peak performance of each model which followed the same trend. This gave us confidence that the random forest family would provide the best model we could train as it outpreformed Na\"ive bayes and MLPs in both mean and peak validation accuracy across all runs.
 
 Once we went with Random forest, we considered 2 hyperparameters to tune: tree depth and number of trees. We went this these because they determine how tightly each tree can approximate a function and how many such trees we would be averaging across. We did binary search on two axes, in each iteration we took one hyperparameter and shifted it, leaving the other constant. This was to reduce ambiguity of the exact cause of decrease/increase of performance. We evaluated performance by a model's mean validation error across many splits. Once again since split choice was a large source of variance we ran each test 10-20 times across different splits allowing the random forest to be trained 100 times per choice of split to allow for variance due to ties to average out. 
 
@@ -206,7 +204,7 @@ Specifically consider this table with a selection of parameter pair and metrics 
 
 \begin{tabular}{c|c|c|c}
 	n\_estimators & max\_depth & mean validation accuracy & max validation accuracy\\
-	\hline
+	\hline & & & \\
 	250 & 150 & 0.924901185770751 & 0.9486166007905138\\
 	100 & 150 & 0.8897628458498023 & 0.9288537549407114\\
 	300 & 150 & 0.8746245059288534 & 0.8972332015810277\\

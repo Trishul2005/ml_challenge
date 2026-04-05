@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.28)  4 APR 2026 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.28)  4 APR 2026 22:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -457,74 +457,61 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 12
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 146.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158 
+       [1
+
+] [2]
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 205.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 146.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 205.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 146.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 205.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 146.
+(Font)              scaled to size 12.50409pt on input line 205.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 146.
+(Font)              scaled to size 9.37807pt on input line 205.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 146.
+(Font)              scaled to size 7.29405pt on input line 205.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 146.
+(Font)              scaled to size 12.50409pt on input line 205.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 146.
+(Font)              scaled to size 9.37807pt on input line 205.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 146.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 146.
+(Font)              scaled to size 7.29405pt on input line 205.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 205.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 148.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 148.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 148.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 148.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 148.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 148.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.151 	\item
-             How you are applied these models. You don't need to reiterate h... [1
-
-] [2] [3] (./project_report_template.bbl) [4] (./project_report_template.aux)
+) [3] [4] (./project_report_template.bbl) [5] (./project_report_template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `project_report_template.out' has not changed.
-(rerunfilecheck)             Checksum: 8DA7B1BE9546ABC060B40002B2F1B227;1174.
+(rerunfilecheck)             Checksum: 85E28150CDE6A293CE27D3A933466E13;909.
  ) 
 Here is how much of TeX's memory you used:
- 16436 strings out of 474116
- 316209 string characters out of 5743682
+ 16410 strings out of 474116
+ 315874 string characters out of 5743682
  1938187 words of memory out of 5000000
- 38598 multiletter control sequences out of 15000+600000
- 582879 words of font info for 100 fonts, out of 8000000 for 9000
+ 38577 multiletter control sequences out of 15000+600000
+ 574073 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,11n,80p,961b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,80p,1084b,932s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on project_report_template.pdf (5 pages, 73801 bytes).
+Output written on project_report_template.pdf (6 pages, 77920 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
