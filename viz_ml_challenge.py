@@ -11,6 +11,10 @@ import os
 sns.set_theme(style="whitegrid")
 plt.rcParams['figure.figsize'] = (15, 10)
 
+def set_figure_title(ax, figure_number, title, fontsize=14):
+    """Set a graph title with a consistent figure number prefix."""
+    ax.set_title(f'Figure {figure_number}: {title}', fontsize=fontsize)
+
 def clean_numerical(val):
     """Extract first numerical value from string if exists."""
     if pd.isna(val):
@@ -105,18 +109,18 @@ def main():
 
     # 1. Distribution of Emotion Intensity
     sns.histplot(data=df, x='Emotion Intensity', hue='Painting', kde=True, multiple="stack", ax=axes[0, 0])
-    axes[0, 0].set_title('1. Emotion Intensity Distribution', fontsize=14)
+    set_figure_title(axes[0, 0], 1, 'Emotion Intensity Distribution')
 
     # 2. Relationship between Colors and Objects
     sns.scatterplot(data=df, x='Color Count', y='Object Count', hue='Painting', alpha=0.6, ax=axes[0, 1])
-    axes[0, 1].set_title('2. Colors vs Objects by Painting', fontsize=14)
+    set_figure_title(axes[0, 1], 2, 'Colors vs Objects by Painting')
 
     # 3. Mood breakdown
     mood_vars = [col.split("feel ")[-1].replace(".", "") for col in likert_cols if col in df.columns]
     emotion_melt = df.melt(id_vars='Painting', value_vars=mood_vars, 
                            var_name='Mood', value_name='Rating')
     sns.boxplot(data=emotion_melt, x='Mood', y='Rating', hue='Painting', ax=axes[1, 0])
-    axes[1, 0].set_title('3. Mood Ratings by Painting', fontsize=14)
+    set_figure_title(axes[1, 0], 3, 'Mood Ratings by Painting')
     axes[1, 0].set_ylim(0, 6)
 
     # 4. Global Food Scatter Plot
@@ -128,22 +132,22 @@ def main():
         axes[1, 1].text(top_foods.iloc[i]['Mentions']+0.3, top_foods.iloc[i]['Avg_Emotion'], 
                       top_foods.iloc[i]['Food'], fontsize=11, weight='bold')
     
-    axes[1, 1].set_title('4. Food Association: Overall Frequency vs Emotion', fontsize=14)
+    set_figure_title(axes[1, 1], 4, 'Food Association: Overall Frequency vs Emotion')
 
     # 5. Willingness to Pay
     sns.kdeplot(data=df_pay, x='Clean Pay', hue='Painting', fill=True, ax=axes[2, 0])
-    axes[2, 0].set_title('5. Willingness to Pay ($ < 10k)', fontsize=14)
+    set_figure_title(axes[2, 0], 5, 'Willingness to Pay ($ < 10k)')
 
     # 6. Food In Relation to Painting
     sns.barplot(data=top_food_by_painting, x='Count', y='Food_Clean', hue='Painting', ax=axes[2, 1])
-    axes[2, 1].set_title('6. Top Food Mentions per Painting', fontsize=14)
+    set_figure_title(axes[2, 1], 6, 'Top Food Mentions per Painting')
     axes[2, 1].set_xlabel('Count')
     axes[2, 1].set_ylabel('Food Item')
     axes[2, 1].legend(title='Painting', bbox_to_anchor=(1.05, 1), loc='upper left')
 
     # 7. Seasonal Association
     sns.countplot(data=df_seasons, x=season_col, hue='Painting', order=['Spring', 'Summer', 'Fall', 'Winter'], ax=axes[3, 0])
-    axes[3, 0].set_title('7. Seasonal Association per Painting', fontsize=14)
+    set_figure_title(axes[3, 0], 7, 'Seasonal Association per Painting')
     axes[3, 0].set_xlabel('Season')
     axes[3, 0].set_ylabel('Frequency')
 
@@ -153,7 +157,7 @@ def main():
     missing_data = df.groupby('Painting')['MissingCount'].mean().reset_index()
     
     sns.barplot(data=missing_data, x='Painting', y='MissingCount', palette='Reds_r', ax=axes[3, 1])
-    axes[3, 1].set_title('8. Avg Missing Responses per Person', fontsize=14)
+    set_figure_title(axes[3, 1], 8, 'Avg Missing Responses per Person')
     axes[3, 1].set_ylabel('Avg Count of Empty Fields')
     axes[3, 1].set_xlabel('')
     
@@ -200,7 +204,7 @@ def main():
                 ).generate(text)
 
                 axes_swc[i].imshow(wordcloud)
-                axes_swc[i].set_title(f'Soundtrack Vibes: {painting}', fontsize=16)
+                set_figure_title(axes_swc[i], f'9.{i + 1}', f'Soundtrack Vibes: {painting}', fontsize=16)
                 axes_swc[i].axis("off")
             else:
                 axes_swc[i].text(0.5, 0.5, 'No data', ha='center')

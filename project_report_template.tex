@@ -118,27 +118,46 @@
 
 \section{Data Exploration}
 
-\textbf{Worth 2 points. No more than 2 pages.} Describe how you explored your data, and the process through
-which you determined your input features. How did you end up representing your data?
-What else did you try?  We are looking for:
-\begin{itemize}
-	\item A thorough exploration of the data, similar to what is presented in labs.
-	What are the distributions of the features? How do these features correlate with the target?
-	\item If you use figures to answer those questions, an explanation of how you are
-	interpreting those figures. Take care that your figures can be interpreted
-	meaningfully.
-	\item A clear and logical description of how you determined your input features,
-	with convincing logical or empirical evidence justifying your choice. 
-	Important features are not overlooked (e.g., not removed for ``ease'').
-	\item A clear description of the way(s) that you are representing the data in
-	your models.
-	\item The descriptions should be consistent with the `.py' and/or `.ipynb' files that you
-	used while developing your model.
-	\item A clear description of how you are splitting your data into various sets.
-	You may use k-fold cross validation if you'd like, but if you do, describe how
-	you are applying that idea.
-\end{itemize}
+% \textbf{Worth 2 points. No more than 2 pages.} Describe how you explored your data, and the process through
+% which you determined your input features. How did you end up representing your data?
+% What else did you try?  We are looking for:
+% \begin{itemize}
+% 	\item A thorough exploration of the data, similar to what is presented in labs.
+% 	What are the distributions of the features? How do these features correlate with the target?
+% 	\item If you use figures to answer those questions, an explanation of how you are
+% 	interpreting those figures. Take care that your figures can be interpreted
+% 	meaningfully.
+% 	\item A clear and logical description of how you determined your input features,
+% 	with convincing logical or empirical evidence justifying your choice. 
+% 	Important features are not overlooked (e.g., not removed for ``ease'').
+% 	\item A clear description of the way(s) that you are representing the data in
+% 	your models.
+% 	\item The descriptions should be consistent with the `.py' and/or `.ipynb' files that you
+% 	used while developing your model.
+% 	\item A clear description of how you are splitting your data into various sets.
+% 	You may use k-fold cross validation if you'd like, but if you do, describe how
+% 	you are applying that idea.
+% \end{itemize}
 
+We began by reviewing the CSV file to understand its organization and the meaning of each feature. The dataset contains several different types of inputs, including free-response text, Likert-scale mood ratings, multiple-choice categorical responses, and numeric values. Our first step was to explore all of these features and see which ones appeared to be most informative for predicting the painting.
+
+We first graphed the numeric and categorical survey features to understand their distributions across the three paintings better. Figure~1 shows the distribution of emotion intensity ratings. From this graph, we noticed that the distributions for the three paintings overlap heavily, so emotion intensity alone does not clearly separate the classes. In Figure~2, we plotted the number of colours against the number of objects noticed in the painting. Most of the points are clustered in the same region, aside from a small number of outliers, suggesting that these features also do not provide strong separation on their own.
+
+We then examined the mood rating features shown in Figure~3. These ratings, such as whether a painting felt sombre, content, calm, or uneasy, showed more visible differences across the paintings than the simple numeric features did. This suggested that mood-based responses could provide useful signal for the model. We also explored the food association responses in Figures~4 and~6. These figures showed clearer differences across paintings, such as certain foods appearing much more often for one painting than for the others. Similarly, the seasonal associations shown in Figure~7 revealed noticeable differences between paintings, which suggested that season could also be useful for classification.
+
+Next, we looked at willingness to pay in Figure~5. The density curves overlapped substantially, which initially suggested that this feature might not be especially informative by itself. We also summarized missing responses in Figure~8 to better understand data quality and how often survey fields were left blank. At this stage of exploration, features such as willingness to pay, emotion intensity, colour count, and object count appeared much weaker than the text and association-based features when viewed individually.
+
+To explore the free-response text, we created word clouds for the painting descriptions and soundtrack descriptions. The file \texttt{descriptions\_wordcloud.png} showed that different paintings were associated with different emotional and descriptive words, while \texttt{soundtrack\_wordcloud.png} showed similar differences in the musical language participants used to describe each painting. These visualizations suggested that the free-response text fields contained strong class-specific information and would likely be important features for the model.
+
+Although our initial exploratory analysis suggested that some structured features were weak on their own, later model testing showed that including them still improved performance. In particular, even features that looked less informative in the graphs, such as willingness to pay, emotion intensity, colour count, and object count, helped boost the model's average performance when combined with the stronger text and survey-response features. Because of this, we decided not to remove these features from the final representation. Instead, we kept all meaningful survey-response columns and allowed the model to determine how useful each one was in combination with the others.
+
+Based on this, we represented each example using a hybrid feature set. For the text portion, we combined the three free-response columns into one text representation: the description of how the painting makes the participant feel, the food association, and the imagined soundtrack description. We then converted this combined text into bag-of-words count features using both unigrams and bigrams. For the structured portion, we included the numeric features, the willingness-to-pay response, the four Likert-scale mood ratings, and the multiple-choice survey responses. Missing values were handled using indicator features, and categorical responses were encoded using multi-hot representations. We also included a small number of simple interaction features between intensity, colours, and objects.
+
+After constructing these text and structured features, we concatenated them into one final feature vector for each example. This gave the model access to both the semantic information contained in the written responses and the explicit survey patterns found in the structured columns.
+
+For data splitting, we used a stratified 70/15/15 split. We first split the labelled dataset into 70\% training data and 30\% temporary data while preserving class balance. We then split the temporary portion equally into validation and test sets, giving 15\% validation data and 15\% test data. The training set was used to fit the model, the validation set was used for model selection, and the test set was kept separate for final evaluation. Since random forests include randomness during training, we also trained the model multiple times on the same split to check whether performance was stable across runs. This was only used as a consistency check and was not a k-fold cross-validation procedure.
+
+Overall, our exploration showed that the strongest individual signals came from the free-response text, mood ratings, food associations, and seasonal associations. However, our later experiments showed that retaining the full set of meaningful survey features led to better average model performance than using only the features that appeared strongest from the exploratory graphs alone. For that reason, our final model used a hybrid representation that included both the stronger semantic features and the weaker structured features that still improved performance when used together.
 
 \section{Model Exploration}
 
